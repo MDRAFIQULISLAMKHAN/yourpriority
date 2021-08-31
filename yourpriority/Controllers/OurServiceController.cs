@@ -9,9 +9,9 @@ namespace yourpriority.Controllers
     public class OurServiceController : Controller
     {
         // GET: OurService
-        public ActionResult Index()
+        public ActionResult Our_Services()
         {
-            return View("~/Views/OurService/Our_Services.cshtml");
+            return View();
         }
         public ActionResult Home_Loans()
         {
