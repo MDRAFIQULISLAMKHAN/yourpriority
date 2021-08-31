@@ -4,22 +4,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<style>
-    .red-button {
-        background-color: #ed193d;
-        font-weight: bold;
-        display: inline-block;
-        color: #FFF !important;
-        padding: 10px 10%;
-        box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 41%);
-        margin-top: 10px;
-        transition: background-color 0.5s ease-in-out;
-        text-align: center;
-    }
-        .red-button::selection {
-            background: #b3d4fc;
-            text-shadow: none;
-        }
+<style type="text/css">
     .red-paragraph {
         background-color: #ed193d;
         color: #FFF !important;
@@ -29,19 +14,89 @@
         font-size: 18px;
     }
 
-    .zero {
-        margin: 0px;
-        padding: 0px;
+    .grey-paragraph {
+        background-color: #f1f1f2;
+        padding: 20px 3%;
+        margin: 20px 0;
+        font-weight: 500;
+        font-size: 18px;
     }
-    .subs {
-        display: table-cell;
-        vertical-align: top;
-        padding-top: 40px;
-        padding-right: 50px;
-        width: 300px;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
+
+    .menu-li {
+        list-style: none;
+        padding: 10px;
+        padding-left: 0px;
+        border-bottom: 1px;
+        border-bottom: 2px solid rgb(230, 230, 230);
+    }
+
+    .menu-li-list {
+        list-style: none;
+        padding: 10px 0;
+    }
+
+    .menu-ul {
+        padding-top: 45px;
+        padding-bottom: 40px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+
+    .embeddedContent[data-align='center'], .embeddedContent[data-align='center'] iframe, .embeddedContent[data-align='center'] embed, .embeddedContent[data-align='center'] object {
+        margin: 0 auto;
+    }
+
+    .embeddedContent iframe, .embeddedContent embed, .embeddedContent object {
+        display: block;
+        max-width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .embeddedContent[data-align='center'], .embeddedContent[data-align='center'] iframe, .embeddedContent[data-align='center'] embed, .embeddedContent[data-align='center'] object {
+        margin: 0 auto;
+    }
+
+    .embeddedContent[data-align="none"] iframe, .embeddedContent[data-align="none"] embed, .embeddedContent[data-align="none"] object, .embeddedContent.KMS-video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .embeddedContent iframe, .embeddedContent embed, .embeddedContent object {
+        display: block;
+        max-width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    audio, canvas, iframe, img, svg, video {
+        vertical-align: middle;
+        border: 0;
+    }
+
+    .highlight {
+        color: #ed1a3d;
+    }
+
+    .not-highlight {
+        color: #00577f;
+    }
+
+    .bold-font {
+        font-weight: 600;
+    }
+
+    .first-video {
+        max-width: 64%;
     }
 </style>
 <div class="page-header">
@@ -50,119 +105,95 @@
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <div class="page-breadcrumb">
                     <ol class="breadcrumb">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active">Why use Priority</li>
+                        <li><a href="#">Home</a></li>
+                        <li class="active"><a href="#">Why use Priority</a></li>
                     </ol>
                 </div>
             </div>
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <div class="bg-white pinside30">
                     <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-9 col-sm-12 col-12">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <h1 class="page-title">Why use Priority</h1>
                         </div>
-                        @*<div class="col-xl-8 col-lg-8 col-md-3 col-sm-12 col-12">
-                    <div class="row">
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                            <div class="btn-action"> <a href="#" class="btn btn-default">How To Apply</a> </div>
-                        </div>
-                    </div>
-                </div>*@
-                    </div>
-                </div>
-                @*<div class="sub-nav" id="sub-nav">
-            <ul class="nav nav-justified">
-                <li class="nav-item">
-                    <a href="contact-us.html" class="nav-link">Give me call back</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Emi Caculator</a>
-                </li>
-            </ul>
-        </div>*@
-            </div>
-                </div>
-            </div>
-        </div>
-        <div class=" ">
-            <!-- content start -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="wrapper-content bg-white ">
-
-                            <div class="about-section pinside40">
-                                <div data-edit="true" data-edit_type="rich" data-edit_field="content" data-content_type="page" data-id="4327" data-csrf="ZJIOwx" data-secure-uploads="false">
-                                    <h3><img alt="" src="https://keo-cms.appspot.com.storage.googleapis.com/sites/priorityhl/assets/1e988e6c-502c-4dd9-9387-e0971e0442ca/Winners Photo 2018 resized.jpg" style="height: 450px; width: 700px"></h3>
-
-                                    <p>
-                                        <strong>Awarded 2018 Best Regional Broker (NSW/ACT)</strong><br>
-                                        FAST Professional Development Convention in Adelaide
-                                    </p>
-
-                                    <p>&nbsp;</p>
-
-                                    <h3><img alt="Prioritytick" src="//keo-cms.appspot.com.storage.googleapis.com/sites/priorityhl/assets/d62f1ac4-9f4b-4538-af1e-c9532669feb4/priority-profile.png" style="height: 20px; width: 20px">&nbsp; &nbsp;<span class="highlight">Get the right deal. &nbsp; &nbsp;&nbsp;</span>We compare over 35 lenders.</h3>
-
-                                    <h3><img alt="Prioritytick" src="//keo-cms.appspot.com.storage.googleapis.com/sites/priorityhl/assets/d62f1ac4-9f4b-4538-af1e-c9532669feb4/priority-profile.png" style="height: 20px; width: 20px">&nbsp; &nbsp;<span class="highlight">All the legwork done for you.</span>&nbsp; &nbsp; &nbsp;We do all your paperwork.</h3>
-
-                                    <h3><img alt="Prioritytick" src="//keo-cms.appspot.com.storage.googleapis.com/sites/priorityhl/assets/d62f1ac4-9f4b-4538-af1e-c9532669feb4/priority-profile.png" style="height: 20px; width: 20px">&nbsp; &nbsp;<span class="highlight">Expert advice.<strong>&nbsp; &nbsp; &nbsp;</strong></span>Our advisors are local and are a friendly face to ask questions.</h3>
-
-                                    <h3><img alt="Prioritytick" src="//keo-cms.appspot.com.storage.googleapis.com/sites/priorityhl/assets/d62f1ac4-9f4b-4538-af1e-c9532669feb4/priority-profile.png" style="height: 20px; width: 20px">&nbsp;&nbsp;&nbsp;<span class="highlight">We are paid by the lender. &nbsp; &nbsp;&nbsp;</span>In the majority of cases, there is no cost to you.</h3>
-
-                                    <p><a href="https://threebestrated.com.au/mortgage-brokers-in-tamworth-nsw"><img alt="Best Mortgage brokers in Tamworth" src="https://threebestrated.com.au/awards/mortgage_brokers-tamworth-2019-clr.svg" style="width: 200px"></a></p>
-
-                                    <p><a href="https://threebestrated.com.au/mortgage-brokers-in-newcastle-nsw"><img alt="Best Mortgage brokers in Newcastle" src="https://threebestrated.com.au/awards/mortgage_brokers-newcastle-2019-clr.svg" style="width: 200px"></a></p>
-
-                                    <p><span class="highlight"><strong>What does a Priority broker do for you?</strong></span></p>
-
-                                    <p>Priority Brokers are equipped with the industry knowledge and experience needed to find you the best finance available for your personal situation.</p>
-
-                                    <p>The first step in this process is to sit down and chat about your financial setting and the goals you have for the future. The broker will then take this information and research the most appropriate products in the current market and prepare a tailored finance solution from one of Australia’s finance providers. You will be given several different scenarios for your consideration and the dedicated assistance of your broker to help you make this decision.</p>
-
-                                    <p>Once you have decided what scenario is best fitted, Priority handles your application and liaises with the lender until settlement. And the service does not stop there. We are here for you for the entirety of your loan – any adjustments or concerns? You will feel peace of mind in having your Priority Broker to help you through any aspect at any and every step along the way.</p>
-
-                                    <p class="grey-paragraph" style="text-align: center">
-                                        Using a Priority Broker can even up the playing field. There are over 3,000 finance products available in today’s market.<br>
-                                        <span class="highlight">Let Priority help you decide which one is right for you.</span>
-                                    </p>
-
-                                    <h3 style="text-align: center"><a class="red-button" href="https://keo-cms.appspot.com.storage.googleapis.com/sites/priorityhl/assets/18a0784a-63d7-425f-872e-74d17fc93602/ApplicationProcess - Guide for customers.pdf" target="_blank">Download our Application Process Guide</a></h3>
-
-                                    <p><span class="highlight"><strong>Why use a Priority Broker?</strong></span></p>
-
-                                    <p>When you use a Priority Broker, you will feel confident that your finance is well researched and compared with the latest products in the market. Your local home loan choice made easy.</p>
-
-                                    <p>Priority Brokers are accredited with over 35 lenders and fully backed by the Mortgage Finance Association of Australia. And we are paid by the lender, meaning there is <span class="highlight"><strong>no charge to our clients</strong>.</span> We act on your behalf to find the best possible solution to your financing needs, priding ourselves on a high level of professionalism, skill and service.</p>
-
-                                    <h3><span class="highlight"><strong>What makes Priority different?</strong></span></h3>
-
-                                    <p>Priority Home Loans has and always will provide the highest level of service to its customers.&nbsp;The Directors of the company are passionate about putting the customer’s needs before anything else. Their high involvement in all aspects of the business ensures this value is held high.</p>
-
-                                    <p class="grey-paragraph" style="text-align: center">With over 98 years combined experience in the finance industry, we are confident in finding the most appropriate loan product to suit your individual needs.</p>
-
-                                    <div class="embeddedContent oembed-provider-youtube KMS-video" data-align="none" data-maxheight="315" data-maxwidth="560" data-oembed="https://www.youtube.com/watch?v=4XKLBIbf56Q" data-oembed_provider="youtube" data-resizetype="noresize" style="width: 560px;"><iframe allowfullscreen="true" allowscriptaccess="always" frameborder="0" height="349" scrolling="no" src="//www.youtube.com/embed/4XKLBIbf56Q?wmode=transparent&amp;jqoemcache=cR5eA" width="425" style="width: 100%; height: 100%;"></iframe></div>
-
-                                    <h3 style="text-align: center">&nbsp;</h3>
-
-                                    <div class="embeddedContent oembed-provider-youtube" data-align="center" data-oembed="https://www.youtube.com/watch?v=g0xO-LYeyZM&amp;feature=youtu.be" data-oembed_provider="youtube" data-resizetype="noresize" style="text-align: center"><iframe allowfullscreen="true" allowscriptaccess="always" frameborder="0" height="349" scrolling="no" src="//www.youtube.com/embed/g0xO-LYeyZM?wmode=transparent&amp;jqoemcache=gZHMu" width="425"></iframe></div>
-
-                                    <h3 style="text-align: center">&nbsp;</h3>
-
-                                    <p><span class="highlight"><strong>Website Links</strong></span></p>
-
-                                    <ul>
-                                        <li><span class="highlight"><a href="https://www.fastgroup.com.au/" target="_blank">FAST</a></span></li>
-                                        <li><span class="highlight"><a href="https://www.mfaa.com.au/" target="_blank">Mortgage and Finance Association of Australia</a></span> (MFAA)</li>
-                                        <li><span class="highlight"><a href="https://www.aligroup.com.au/" target="_blank">ALI Insurance</a></span></li>
-                                    </ul>
-                                </div>
-
-                            </div>
-
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- /.content end -->
+    </div>
+</div>
+<div class=" ">
+    <!-- content start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                <div class="wrapper-content bg-white">
+                    <ul class="menu-ul">
+                        <!--rm wsp-->
+                        <li class="menu-li"><a href="Home-Loans">What We Do</a></li>
+                        <!--rm wsp-->
+                        <li class="menu-li"><a href="business-loans">Application Process</a></li>
+                        <!--rm wsp-->
+                        <li class="menu-li"><a href="Pre-approvals">Testimonials</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                <div class="wrapper-content bg-white">
+                    <div class="section-scroll pinside60" id="section-about">
+                        <h3><img alt="" src="https://keo-cms.appspot.com.storage.googleapis.com/sites/priorityhl/assets/1e988e6c-502c-4dd9-9387-e0971e0442ca/Winners Photo 2018 resized.jpg" style="height:450px; width:700px"></h3>
+
+                        <p>
+                            <strong>Awarded 2018 Best Regional Broker (NSW/ACT)</strong><br>
+                            FAST Professional Development Convention in Adelaide
+                        </p>
+
+                        <h3 class="not-highlight"><span class="highlight"><img alt="Prioritytick" src="~/Assets/images/priority-profile.png" style="float:left; height:20px; width:20px">&nbsp; &nbsp;Get the right deal. &nbsp; &nbsp;&nbsp;</span> We compare over 35 lenders.</h3>
+
+                        <h3 class="not-highlight"><span class="highlight"><img alt="Prioritytick" src="~/Assets/images/priority-profile.png" style="height:20px; width:20px">&nbsp; &nbsp;All the legwork done for you.&nbsp;</span> &nbsp; &nbsp;We do all your paperwork.</h3>
+
+                        <h3 class="not-highlight"><span class="highlight"><img alt="Prioritytick" src="~/Assets/images/priority-profile.png" style="float:left; height:20px; width:20px">&nbsp; &nbsp;Expert advice.<strong>&nbsp; &nbsp; &nbsp;</strong></span>Our advisors are local and are a friendly face to ask questions.</h3>
+
+                        <h3 class="not-highlight"><span class="highlight"><img alt="Prioritytick" src="~/Assets/images/priority-profile.png" style="float:left; height:20px; width:20px">&nbsp; &nbsp;We are paid by the lender. &nbsp; &nbsp;&nbsp;</span>In the majority of cases, there is no cost to you.</h3>
+                        <p><a href="https://threebestrated.com.au/mortgage-brokers-in-tamworth-nsw"><img alt="Best Mortgage brokers in Tamworth" src="~/Assets/images/mortgage_brokers-tamworth-2019-clr.svg" style="width:200px"></a></p>
+                        <p><a href="https://threebestrated.com.au/mortgage-brokers-in-newcastle-nsw"><img alt="Best Mortgage brokers in Newcastle" src="~/Assets/images/mortgage_brokers-newcastle-2019-clr.svg" style="width:200px"></a></p>
+
+                        <p><span class="highlight"><strong>What does a Priority broker do for you?</strong></span></p>
+                        <p>Priority Brokers are equipped with the industry knowledge and experience needed to find you the best finance available for your personal situation.</p>
+                        <p>The first step in this process is to sit down and chat about your financial setting and the goals you have for the future. The broker will then take this information and research the most appropriate products in the current market and prepare a tailored finance solution from one of Australia’s finance providers. You will be given several different scenarios for your consideration and the dedicated assistance of your broker to help you make this decision.</p>
+                        <p>Once you have decided what scenario is best fitted, Priority handles your application and liaises with the lender until settlement. And the service does not stop there. We are here for you for the entirety of your loan – any adjustments or concerns? You will feel peace of mind in having your Priority Broker to help you through any aspect at any and every step along the way.</p>
+
+                        <p class="grey-paragraph" style="text-align:center">
+                            Using a Priority Broker can even up the playing field. There are over 3,000 finance products available in today’s market.<br>
+                            <span class="highlight">Let Priority help you decide which one is right for you.</span>
+                        </p>
+
+                        <h3 style="text-align:center"><a class="red-button" href="https://keo-cms.appspot.com.storage.googleapis.com/sites/priorityhl/assets/18a0784a-63d7-425f-872e-74d17fc93602/ApplicationProcess - Guide for customers.pdf" target="_blank">Download our Application Process Guide</a></h3>
+                        <p><span class="highlight"><strong>Why use a Priority Broker?</strong></span></p>
+                        <p>When you use a Priority Broker, you will feel confident that your finance is well researched and compared with the latest products in the market. Your local home loan choice made easy.</p>
+                        <p>Priority Brokers are accredited with over 35 lenders and fully backed by the Mortgage Finance Association of Australia. And we are paid by the lender, meaning there is <span class="highlight"><strong>no charge to our clients</strong>.</span> We act on your behalf to find the best possible solution to your financing needs, priding ourselves on a high level of professionalism, skill and service.</p>
+                        <h3><span class="highlight"><strong>What makes Priority different?</strong></span></h3>
+                        <p>Priority Home Loans has and always will provide the highest level of service to its customers.&nbsp;The Directors of the company are passionate about putting the customer’s needs before anything else. Their high involvement in all aspects of the business ensures this value is held high.</p>
+                        <p>Priority Home Loans has and always will provide the highest level of service to its customers.&nbsp;The Directors of the company are passionate about putting the customer’s needs before anything else. Their high involvement in all aspects of the business ensures this value is held high.</p>
+
+                        <div class="embeddedContent oembed-provider-youtube first-video" data-align="center" data-oembed="https://www.youtube.com/embed/4XKLBIbf56Q?wmode=transparent&jqoemcache=wToNl" data-oembed_provider="youtube" data-resizetype="noresize" style="text-align:center"><iframe allowfullscreen="true" allowscriptaccess="always" frameborder="0" height="315" scrolling="no" src="https://www.youtube.com/embed/4XKLBIbf56Q?wmode=transparent&jqoemcache=wToNl" width="451"></iframe></div>
+
+                        <h3 style="text-align:center">&nbsp;</h3>
+
+                        <div class="embeddedContent oembed-provider-youtube" data-align="center" data-oembed="https://www.youtube.com/watch?v=g0xO-LYeyZM&amp;feature=youtu.be" data-oembed_provider="youtube" data-resizetype="noresize" style="text-align:center"><iframe allowfullscreen="true" allowscriptaccess="always" frameborder="0" height="349" scrolling="no" src="//www.youtube.com/embed/g0xO-LYeyZM?wmode=transparent&amp;jqoemcache=SkIKb" width="425"></iframe></div>
+
+                        <h3 style="text-align:center">&nbsp;</h3>
+
+                        <p><span class="highlight bold-font">Website Link</span></p>
+
+                        <ul>
+                            <li class="not-highlight"><a class="not-highlight bold-font" href="https://www.fastgroup.com.au/" target="_blank">FAST</a></li>
+                            <li class="not-highlight"><a class="not-highlight bold-font" href="https://www.mfaa.com.au/" target="_blank">Mortgage and Finance Association of Australia</a> (MFAA)</li>
+                            <li class="not-highlight"><a class="highlight bold-font" href="https://www.aligroup.com.au/" target="_blank">ALI Insurance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
