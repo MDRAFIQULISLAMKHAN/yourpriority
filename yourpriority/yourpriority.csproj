@@ -255,12 +255,15 @@
     <Content Include="Assets\images\masonry-6.jpg" />
     <Content Include="Assets\images\masonry-7.jpg" />
     <Content Include="Assets\images\mortgage.svg" />
+    <Content Include="Assets\images\mortgage_brokers-newcastle-2019-clr.svg" />
+    <Content Include="Assets\images\mortgage_brokers-tamworth-2019-clr.svg" />
     <Content Include="Assets\images\page-header.jpg" />
     <Content Include="Assets\images\piggy-bank.svg" />
     <Content Include="Assets\images\play-icon.png" />
     <Content Include="Assets\images\post-thumb-img-1.jpg" />
     <Content Include="Assets\images\post-thumb-img-2.jpg" />
     <Content Include="Assets\images\post-thumb-img-3.jpg" />
+    <Content Include="Assets\images\priority-profile.png" />
     <Content Include="Assets\images\process-img-1.jpg" />
     <Content Include="Assets\images\process-img-2.jpg" />
     <Content Include="Assets\images\process-img-3.jpg" />
