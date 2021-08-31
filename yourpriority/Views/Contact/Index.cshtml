@@ -136,113 +136,127 @@
                                 <div class=" ">
                                     <!-- Text input-->
                                     <div class="row">
-                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                                            <div class="form-group">
-                                                <label class="sr-only control-label" for="name">name<span class=" "> </span></label>
-                                                <input id="name" name="name" type="text" placeholder="Name" class="form-control input-md" required>
-                                            </div>
-                                        </div>
-                                        <!-- Text input-->
-                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                                            <div class="form-group">
-                                                <label class="sr-only control-label" for="email">Email<span class=" "> </span></label>
-                                                <input id="email" name="email" type="email" placeholder="Email" class="form-control input-md" required>
-                                            </div>
-                                        </div>
-                                        <!-- Text input-->
-                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                                            <div class="form-group">
-                                                <label class="sr-only control-label" for="phone">Phone<span class=" "> </span></label>
-                                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control input-md" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                                            <div class="form-group">
-                                                <select class="form-control form-control-lg">
-                                                    <option>Regarding</option>
-                                                    <option>General Enquiry</option>
-                                                    <option>Home Loan</option>
-                                                    <option>Commercial & Leasing</option>
-                                                    <option>Business Loans</option>
-                                                    <option>Pre-approvals</option>
-                                                    <option>Refinancing</option>
-                                                    <option>First Home Buyers</option>
-                                                    <option>Investment Loans</option>
-                                                    <option>Construction Loans</option>
-                                                    <option>Deposit Bonds</option>
-                                                    <option>Car and Equipment</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                                            <div class="form-group">
+        @*<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="form-group">
+                <label class="sr-only control-label" for="name">name<span class=" "> </span></label>
+                <input id="name" name="name" type="text" placeholder="Name" class="form-control input-md" required>
+            </div>
+        </div>
+        <!-- Text input-->
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="form-group">
+                <label class="sr-only control-label" for="email">Email<span class=" "> </span></label>
+                <input id="email" name="email" type="email" placeholder="Email" class="form-control input-md" required>
+            </div>
+        </div>
+        <!-- Text input-->
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="form-group">
+                <label class="sr-only control-label" for="phone">Phone<span class=" "> </span></label>
+                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control input-md" required>
+            </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="form-group">
+                <select class="form-control form-control-lg">
+                    <option>Regarding</option>
+                    <option>General Enquiry</option>
+                    <option>Home Loan</option>
+                    <option>Commercial & Leasing</option>
+                    <option>Business Loans</option>
+                    <option>Pre-approvals</option>
+                    <option>Refinancing</option>
+                    <option>First Home Buyers</option>
+                    <option>Investment Loans</option>
+                    <option>Construction Loans</option>
+                    <option>Deposit Bonds</option>
+                    <option>Car and Equipment</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="form-group">
 
-                                                <select class="form-control form-control-lg">
-                                                    <option>Your Closest Office</option>
-                                                    <option>Tamworth</option>
-                                                    <option>Hunter Coast</option>
-                                                </select>
-                                            </div>
+                <select class="form-control form-control-lg">
+                    <option>Your Closest Office</option>
+                    <option>Tamworth</option>
+                    <option>Hunter Coast</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="form-group">
+                <select class="form-control form-control-lg " aria-label="Default select example">
+                    <option selected>How did you hear of us?</option>
+                    <option>Newspaper</option>
+                    <option>Radio</option>
+                    <option>Web</option>
+                    <option>Word of Mouth</option>
+                    <option>Other</option>
+                </select>
+            </div>
+        </div>
+        <!-- Select Basic -->
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="form-group">
+                <label class="control-label" for="message"> </label>
+                <textarea class="form-control" id="message" rows="7" name="message" placeholder="Message"></textarea>
+            </div>
+        </div>
+        <!-- Button -->
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <button type="submit" class="btn btn-default">Send</button>
+        </div>*@
+                                        @using (Html.BeginForm("MaiResult", "Contact", FormMethod.Post, new { @class = "contactForm" }))
+                                                                        {
+                                                                            <div class="row">
+                                                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                                                    <div class="form-group">
+                                                                                        @Html.TextBoxFor(model => Model.Name, new { @class = "form-control input-md", @id = "name", placeholder = "Name", data_rule = "minlen:4", data_msg = "Please enter at least 4 chars" })
+                                                                                    </div>
+                                                                                </div>
+
+                                                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                                                    <div class="span4 form-group">
+                                                                                        @Html.TextBoxFor(model => model.Email, new { @class = "form-control input-md", @id = "email", placeholder = "Email", data_rule = "email", data_msg = "Please enter a valid email" })
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                                                    <div class="span4 form-group">
+                                                                                        @Html.TextBoxFor(model => model.Phone, new { @class = "form-control input-md", @id = "email", placeholder = "Phone", data_rule = "email", data_msg = "Please enter a valid email" })
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                                                    <div class="span4 form-group">
+                                                                                        @Html.TextBoxFor(model => model.Regarding, new { @class = "form-control form-control-lg", @id = "email", placeholder = "Regarding", data_rule = "email", data_msg = "Please enter a valid email" })
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                                                    <div class="span4 form-group">
+                                                                                        @Html.TextBoxFor(model => model.Office, new { @class = "form-control form-control-lg", @id = "email", placeholder = "Your Closest Office", data_rule = "email", data_msg = "Please enter a valid email" })
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                                                    <div class="span4 form-group">
+                                                                                        @Html.TextBoxFor(model => model.Refference, new { @class = "form-control form-control-lg", @id = "email", placeholder = "How did you hear of us?", data_rule = "email", data_msg = "Please enter a valid email" })
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                                    <div class="form-group">
+                                                                                        @Html.TextAreaFor(model => model.Refference, new { @class = "form-control form-control-lg", @id = "email", placeholder = "Message", data_rule = "email", data_msg = "Please enter Message" })
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                                    <button class="btn btn btn-default" type="submit">Send</button>
+                                                                                </div>
+                                                                                </div>
+                                                                        }
                                         </div>
-                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                                            <div class="form-group">
-                                                <select class="form-control form-control-lg " aria-label="Default select example">
-                                                    <option selected>How did you hear of us?</option>
-                                                    <option>Newspaper</option>
-                                                    <option>Radio</option>
-                                                    <option>Web</option>
-                                                    <option>Word of Mouth</option>
-                                                    <option>Other</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <!-- Select Basic -->
-                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                            <div class="form-group">
-                                                <label class="control-label" for="message"> </label>
-                                                <textarea class="form-control" id="message" rows="7" name="message" placeholder="Message"></textarea>
-                                            </div>
-                                        </div>
-                                        <!-- Button -->
-                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                            <button type="submit" class="btn btn-default">Send</button>
-                                        </div>
-                                    </div>
                                 </div>
                             </form>
 
-                            @using (Html.BeginForm("MaiResult", "Contact", FormMethod.Post, new { @class = "contactForm" }))
-                            {
-                            <div class="row">
-                                <div class="span4 form-group field">
-                                    @Html.TextBoxFor(model => Model.Name, new { @class = "", @id = "name", placeholder = "Your Name", data_rule = "minlen:4", data_msg = "Please enter at least 4 chars" })
-                                </div>
-
-                                <div class="span4 form-group">
-                                    @Html.TextBoxFor(model => model.Email, new { @class = "", @id = "email", placeholder = "Your Email", data_rule = "email", data_msg = "Please enter a valid email" })
-                                </div>
-                                <div class="span4 form-group">
-                                    @Html.TextBoxFor(model => model.Phone, new { @class = "", @id = "email", placeholder = "Your Email", data_rule = "email", data_msg = "Please enter a valid email" })
-                                </div>
-                                <div class="span4 form-group">
-                                    @Html.TextBoxFor(model => model.Regarding, new { @class = "", @id = "email", placeholder = "Your Email", data_rule = "email", data_msg = "Please enter a valid email" })
-                                </div>
-                                <div class="span4 form-group">
-                                    @Html.TextBoxFor(model => model.Office, new { @class = "", @id = "email", placeholder = "Your Email", data_rule = "email", data_msg = "Please enter a valid email" })
-                                </div>
-                                <div class="span4 form-group">
-                                    @Html.TextBoxFor(model => model.Refference, new { @class = "", @id = "email", placeholder = "Your Email", data_rule = "email", data_msg = "Please enter a valid email" })
-                                </div>
-                                <div class="span4 form-group">
-                                    @Html.TextBoxFor(model => model.Message, new { @class = "", @id = "email", placeholder = "Your Email", data_rule = "email", data_msg = "Please enter a valid email" })
-                                </div>
-
-                                <div class="text-center">
-                                    <button class="btn btn-theme btn-medium margintop10" type="submit">Send a message</button>
-                                </div>
+                     
                             </div>
-                            }
-                        </div>
                     </div>
                     <div class="map" id="googleMap"></div>
 
