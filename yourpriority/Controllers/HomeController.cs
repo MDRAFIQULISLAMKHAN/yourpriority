@@ -12,9 +12,9 @@ namespace yourpriority.Controllers
         {
             return View();
         }
-        public ActionResult Home()
+        public ActionResult OurServices()
         {
-            return View();
+            return View("~/Views/Home/Our_Services.cshtml");
         }
     }
 }
