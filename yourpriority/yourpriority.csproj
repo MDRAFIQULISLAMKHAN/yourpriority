@@ -409,6 +409,7 @@
     <Content Include="Views\Resources\Our_Dispute_Resolution_Policy.cshtml" />
     <Content Include="Views\Resources\Privacy_Policy.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
+    <Content Include="Views\Resources\Subscribe.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
