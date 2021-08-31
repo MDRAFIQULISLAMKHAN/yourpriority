@@ -994,11 +994,27 @@ Bullet
 .menu-li-list a {
     color: #00577f;
 }
+.btn-box {
+    margin-top:25px;
+    margin-bottom:25px;
+    justify-content: center;
+    display: flex;
+}
+.red-btn {
+    padding: 15px 55px;
+}
+.blue-btn {
+    padding: 15px 96px;
+    margin-left: 10px;
+    background-color: #00577f !important;
+    border-color: #00577f !important;
+}
 /*-----------------------------------------
 icon
 ------------------------------------------*/
 .icon {
-    margin-left: 10px;
+    justify-content: center;
+    display: flex;
 }
 .site-links {
     padding-top: 20px;
@@ -3322,7 +3338,7 @@ footer
                 }
 
                 .widget-social ul li a:hover {
-                    color: #f51f8a;
+                    color: #ed193d;
                     text-decoration: underline;
                 }
 
@@ -3433,7 +3449,7 @@ Page header
         }
 
             .page-breadcrumb .breadcrumb > li a:hover {
-                color: #f51f8a;
+                color: #ed193d;
             }
 
         .page-breadcrumb .breadcrumb > li + li:before {
@@ -3825,8 +3841,8 @@ Pagination
         .st-pagination .pagination > li > a:focus, .st-pagination .pagination > li > a:hover, .st-pagination .pagination > li > span:focus, .st-pagination .pagination > li > span:hover {
             z-index: 2;
             color: #fff;
-            background-color: #f51f8a;
-            border-color: #f51f8a;
+            background-color: #00577f;
+            border-color: #00577f;
             border-radius: 4px;
         }
 
@@ -3843,8 +3859,8 @@ Pagination
         z-index: 3;
         color: #fff;
         cursor: default;
-        background-color: #f51f8a;
-        border-color: #f51f8a;
+        background-color: #00577f;
+        border-color: #00577f;
         border-radius: 4px;
     }
 
@@ -5032,6 +5048,7 @@ Landing Page Template
     }
 
     .logo {
+        width:9%;
     }
 
     /*--------------- slider for mobile view ( for mobile view  )---------- */
