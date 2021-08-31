@@ -168,7 +168,8 @@ p:last-child {
     color: #ed193d;
 }
 .footer-tiny {
-    background: #f4f6f8;
+    background: #000;
+    height:15px;
 }
 .highlight {
     color: #f51f8a;
@@ -1318,7 +1319,7 @@ display: block; background: #dddddd; content: '';}*/
     }
 
     #navigation ul ul li:hover > a, #navigation ul ul li a:hover {
-        color: #00577f;
+        color: #fff;
         background-color: #ed193d;
     }
 
@@ -3060,8 +3061,8 @@ Service Page & Block Css
     }
 
         #service .owl-next:hover, #service .owl-prev:hover {
-            background-color: #00577f !important;
-            border: 2px solid #00577f;
+            background-color: #ee304f !important;
+            border: 2px solid #ee304f;
             color: #fff;
         }
 
@@ -3368,8 +3369,11 @@ Page header
 .page-title {
     margin-bottom: 0px;
     font-size: 36px;
+    color: #00577f;
 }
-
+.heading-color {
+    color: #ed1a3d;
+}
 .rate-block {
     text-align: right;
 }
