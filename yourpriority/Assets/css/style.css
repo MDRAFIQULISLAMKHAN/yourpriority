@@ -160,14 +160,16 @@ p:last-child {
     color: #333;
 }
 
-*, *::before, *::after {
-    transition: all .3s ease-in-out;
-}
 
 .text-highlight {
     color: #ffecb3;
 }
-
+.bh-web {
+    color: #ed193d;
+}
+.footer-tiny {
+    background: #f4f6f8;
+}
 .highlight {
     color: #f51f8a;
 }
@@ -764,27 +766,27 @@ Buttons
 }
 
 .btn-link {
-    color: #15549a;
+    color: #00567f;
     font-weight: 500;
     padding-bottom: 4px;
-    border-bottom: 2px solid #15549a;
+    border-bottom: 2px solid #00567f;
     display: inline-block;
     text-decoration: none;
 }
 
     .btn-link:hover {
-        color: #f51f8a;
+        color: #ed193d;
         font-weight: 500;
         padding-bottom: 4px;
-        border-bottom: 2px solid #f51f8a;
+        border-bottom: 2px solid #ed193d;
         text-decoration: none;
     }
 
     .btn-link.focus, .btn-link:focus {
         text-decoration: none;
-        border-color: #f51f8a;
+        border-color: #ed193d;
         box-shadow: none;
-        color: #f51f8a;
+        color: #ed193d;
     }
 
 .btn-link-white {
@@ -991,8 +993,14 @@ Bullet
 icon
 ------------------------------------------*/
 .icon {
+    margin-left: 10px;
 }
-
+.site-links {
+    padding-top: 20px;
+}
+.height-box {
+    height: 204px;
+}
 .icon-1x {
     font-size: 24px;
 }
@@ -1679,9 +1687,10 @@ display: block; background: #dddddd; content: '';}*/
 index-1
 ------------------------------------------*/
 .mail-text {
-    border-right: 2px solid #fff;
 }
-
+.tel {
+    color: #778191;
+}
 .rate-table {
     background-color: #fff;
     border-top: 1px solid #dee7f2;
@@ -3030,11 +3039,15 @@ Service Page & Block Css
     }
 
         #service .owl-next:hover, #service .owl-prev:hover {
-            background-color: #f51f8a !important;
-            border: 2px solid #f51f8a;
+            background-color: #00577f !important;
+            border: 2px solid #00577f;
             color: #fff;
         }
 
+.customer p.button a:hover {
+    background: #00577f;
+    color: #fff;
+}
 .service-block {
     transition: box-shadow .5s;
 }
