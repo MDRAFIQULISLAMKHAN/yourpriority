@@ -375,9 +375,6 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Shared\_SubPageLayout.cshtml" />
-    <Content Include="Views\OurService\Our_Services.cshtml" />
-    <Content Include="Views\OurService\Home_Loans.cshtml" />
     <Content Include="Views\OurService\Commercial_and_Leasing.cshtml" />
     <Content Include="Views\OurService\Business_Loans.cshtml" />
     <Content Include="Views\OurService\Pre_approvals.cshtml" />
@@ -387,6 +384,7 @@
     <Content Include="Views\OurService\Construction_Loans.cshtml" />
     <Content Include="Views\OurService\Deposit_Bonds.cshtml" />
     <Content Include="Views\OurService\Car_and_Equipment_Finance.cshtml" />
+    <Content Include="Views\OurService\Home_Loans.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
