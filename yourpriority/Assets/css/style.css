@@ -988,7 +988,12 @@ Bullet
     .list-pdf-file li a:hover {
         color: #f51f8a;
     }
-
+.menu-li a {
+    color: #00577f;
+}
+.menu-li-list a {
+    color: #00577f;
+}
 /*-----------------------------------------
 icon
 ------------------------------------------*/
