@@ -1285,8 +1285,8 @@ display: block; background: #dddddd; content: '';}*/
     }
 
     #navigation ul ul li:hover > a, #navigation ul ul li a:hover {
-        color: #f51f8a;
-        background-color: #f4f6f8;
+        color: #ed193d;
+        background-color: #ed193d;
     }
 
     #navigation ul ul li.has-sub > a:after {
