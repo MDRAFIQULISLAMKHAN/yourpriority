@@ -118,16 +118,13 @@ ul, ol {
     }
 
 a {
-    color: #f51f8a;
+    color: #ed193d;
     text-decoration: none;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
 }
 
     a:focus, a:hover {
         text-decoration: none;
-        color: #15549a;
+        color: #ed193d;
     }
 
 strong {
@@ -819,7 +816,14 @@ Buttons
     .btn-default-link:hover {
         color: #15549a;
     }
-
+.page-header-faq {
+    margin: 0;
+    padding: 25px 0px 80px;
+    min-height: 210px;
+    border: none;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(0, 0, 0, 0.2)no-repeat center;
+    background-size: cover;
+}
 /*-----------------------------------------
 Input Form
 ------------------------------------------*/
@@ -1285,7 +1289,7 @@ display: block; background: #dddddd; content: '';}*/
     }
 
     #navigation ul ul li:hover > a, #navigation ul ul li a:hover {
-        color: #ed193d;
+        color: #00577f;
         background-color: #ed193d;
     }
 
