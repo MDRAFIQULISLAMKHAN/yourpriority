@@ -385,6 +385,7 @@
     <Content Include="Views\OurService\Deposit_Bonds.cshtml" />
     <Content Include="Views\OurService\Car_and_Equipment_Finance.cshtml" />
     <Content Include="Views\OurService\Home_Loans.cshtml" />
+    <Content Include="Views\OurService\Our_Services.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
