@@ -120,8 +120,13 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="Controllers\FAQsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OurServiceController.cs" />
+    <Compile Include="Controllers\ResourcesController.cs" />
+    <Compile Include="Controllers\Why_Use_PriorityController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -375,16 +380,31 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\OurService\Commercial_and_Leasing.cshtml" />
+    <Content Include="Views\Why_use_Priority\Why_use_Priority.cshtml" />
+    <Content Include="Views\Why_use_Priority\Application_Process.cshtml" />
+    <Content Include="Views\Why_use_Priority\Testimonial.cshtml" />
     <Content Include="Views\OurService\Business_Loans.cshtml" />
-    <Content Include="Views\OurService\Pre_approvals.cshtml" />
-    <Content Include="Views\OurService\Refinancing.cshtml" />
-    <Content Include="Views\OurService\First_Home_Buyers.cshtml" />
-    <Content Include="Views\OurService\Investment_Loans.cshtml" />
+    <Content Include="Views\OurService\Car_and_Equipment_Finance.cshtml" />
+    <Content Include="Views\OurService\Commercial_and_Leasing.cshtml" />
     <Content Include="Views\OurService\Construction_Loans.cshtml" />
     <Content Include="Views\OurService\Deposit_Bonds.cshtml" />
-    <Content Include="Views\OurService\Car_and_Equipment_Finance.cshtml" />
+    <Content Include="Views\OurService\First_Home_Buyers.cshtml" />
     <Content Include="Views\OurService\Home_Loans.cshtml" />
+    <Content Include="Views\OurService\Investment_Loans.cshtml" />
+    <Content Include="Views\OurService\Pre_approvals.cshtml" />
+    <Content Include="Views\OurService\Refinancing.cshtml" />
+    <Content Include="Views\OurService\Our_Services.cshtml" />
+    <Content Include="Views\About\Priority_History.cshtml" />
+    <Content Include="Views\About\meet_the_team.cshtml" />
+    <Content Include="Views\About\Lenders.cshtml" />
+    <Content Include="Views\FAQs\Index.cshtml" />
+    <Content Include="Views\Resources\Index.cshtml" />
+    <Content Include="Views\Resources\New_Customer.cshtml" />
+    <Content Include="Views\Resources\News.cshtml" />
+    <Content Include="Views\Resources\Calculators.cshtml" />
+    <Content Include="Views\Resources\Our_Dispute_Resolution_Policy.cshtml" />
+    <Content Include="Views\Resources\Privacy_Policy.cshtml" />
+    <Content Include="Views\Contact\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
