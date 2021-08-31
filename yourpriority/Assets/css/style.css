@@ -1285,7 +1285,7 @@ display: block; background: #dddddd; content: '';}*/
     }
 
     #navigation ul ul li:hover > a, #navigation ul ul li a:hover {
-        color: #ed193d;
+        color: #00577f;
         background-color: #ed193d;
     }
 
