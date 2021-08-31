@@ -3,7 +3,7 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+@model yourpriority.Models.Contact
 <div class="page-header">
     <div class="container">
         <div class="row">
@@ -208,7 +208,40 @@
                                             <button type="submit" class="btn btn-default">Send</button>
                                         </div>
                                     </div>
+                                </div>
                             </form>
+
+                            @using (Html.BeginForm("MaiResult", "Contact", FormMethod.Post, new { @class = "contactForm" }))
+                            {
+                            <div class="row">
+                                <div class="span4 form-group field">
+                                    @Html.TextBoxFor(model => Model.Name, new { @class = "", @id = "name", placeholder = "Your Name", data_rule = "minlen:4", data_msg = "Please enter at least 4 chars" })
+                                </div>
+
+                                <div class="span4 form-group">
+                                    @Html.TextBoxFor(model => model.Email, new { @class = "", @id = "email", placeholder = "Your Email", data_rule = "email", data_msg = "Please enter a valid email" })
+                                </div>
+                                <div class="span4 form-group">
+                                    @Html.TextBoxFor(model => model.Phone, new { @class = "", @id = "email", placeholder = "Your Email", data_rule = "email", data_msg = "Please enter a valid email" })
+                                </div>
+                                <div class="span4 form-group">
+                                    @Html.TextBoxFor(model => model.Regarding, new { @class = "", @id = "email", placeholder = "Your Email", data_rule = "email", data_msg = "Please enter a valid email" })
+                                </div>
+                                <div class="span4 form-group">
+                                    @Html.TextBoxFor(model => model.Office, new { @class = "", @id = "email", placeholder = "Your Email", data_rule = "email", data_msg = "Please enter a valid email" })
+                                </div>
+                                <div class="span4 form-group">
+                                    @Html.TextBoxFor(model => model.Refference, new { @class = "", @id = "email", placeholder = "Your Email", data_rule = "email", data_msg = "Please enter a valid email" })
+                                </div>
+                                <div class="span4 form-group">
+                                    @Html.TextBoxFor(model => model.Message, new { @class = "", @id = "email", placeholder = "Your Email", data_rule = "email", data_msg = "Please enter a valid email" })
+                                </div>
+
+                                <div class="text-center">
+                                    <button class="btn btn-theme btn-medium margintop10" type="submit">Send a message</button>
+                                </div>
+                            </div>
+                            }
                         </div>
                     </div>
                     <div class="map" id="googleMap"></div>

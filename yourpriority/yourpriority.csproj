@@ -130,6 +130,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Contact.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -255,12 +256,15 @@
     <Content Include="Assets\images\masonry-6.jpg" />
     <Content Include="Assets\images\masonry-7.jpg" />
     <Content Include="Assets\images\mortgage.svg" />
+    <Content Include="Assets\images\mortgage_brokers-newcastle-2019-clr.svg" />
+    <Content Include="Assets\images\mortgage_brokers-tamworth-2019-clr.svg" />
     <Content Include="Assets\images\page-header.jpg" />
     <Content Include="Assets\images\piggy-bank.svg" />
     <Content Include="Assets\images\play-icon.png" />
     <Content Include="Assets\images\post-thumb-img-1.jpg" />
     <Content Include="Assets\images\post-thumb-img-2.jpg" />
     <Content Include="Assets\images\post-thumb-img-3.jpg" />
+    <Content Include="Assets\images\priority-profile.png" />
     <Content Include="Assets\images\process-img-1.jpg" />
     <Content Include="Assets\images\process-img-2.jpg" />
     <Content Include="Assets\images\process-img-3.jpg" />
@@ -409,7 +413,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
