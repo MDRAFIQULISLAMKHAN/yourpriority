@@ -12,15 +12,5 @@ namespace yourpriority.Controllers
         {
             return View();
         }
-        public ActionResult OurServices()
-        {
-            return View("~/Views/Home/Our_Services.cshtml");
-        }
-        // Sub Options
-        public ActionResult HomeLoans()
-        {
-            return View("~/Views/Home/Home-Loans.cshtml");
-        }
-
     }
 }
