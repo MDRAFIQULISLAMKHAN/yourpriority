@@ -679,6 +679,10 @@ Background & Block color
 .heading-color {
     color: #ed1a3d;
 }
+.pagination {
+    margin-top: -80px;
+    margin-bottom: 15px;
+}
 
 /* Update 16 june 2017*/
 
@@ -3565,7 +3569,7 @@ Blog
     }
 
 .meta-date {
-    color: #f51f8a;
+    color: #ed1a3d;
     font-weight: 600;
 }
 
