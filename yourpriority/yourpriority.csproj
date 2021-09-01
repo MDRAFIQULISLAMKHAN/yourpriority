@@ -180,6 +180,7 @@
     <Content Include="Assets\images\business-slider-1.jpg" />
     <Content Include="Assets\images\business-slider-2.jpg" />
     <Content Include="Assets\images\business-slider-3.jpg" />
+    <Content Include="Assets\images\Buy with confidence.png" />
     <Content Include="Assets\images\car.svg" />
     <Content Include="Assets\images\card-1.png" />
     <Content Include="Assets\images\card-2.png" />
@@ -416,6 +417,7 @@
     <Content Include="Views\Resources\Privacy_Policy.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\Resources\Subscribe.cshtml" />
+    <Content Include="Views\OurService\What_Comes_First.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
