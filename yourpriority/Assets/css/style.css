@@ -676,7 +676,9 @@ Background & Block color
 
 
 
-
+.heading-color {
+    color: #ed1a3d;
+}
 
 /* Update 16 june 2017*/
 
@@ -3371,9 +3373,7 @@ Page header
     font-size: 36px;
     color: #00577f;
 }
-.heading-color {
-    color: #ed1a3d;
-}
+
 .rate-block {
     text-align: right;
 }
