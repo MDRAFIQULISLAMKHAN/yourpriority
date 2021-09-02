@@ -60,8 +60,8 @@ General css class
 -----------------------------------*/
 
 body {
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
     line-height: 1.4;
     color: #778191;
     background-color: #000;
@@ -130,9 +130,9 @@ a {
 ol li p {
     color: #414855;
 }
-.zero p {
+/*.zero p {
     color: #414855;
-}
+}*/
 strong {
     font-weight: 600;
 }
@@ -592,7 +592,7 @@ Background & Block color
     color: #87c0ff;
 }
 
-.bg-white {
+.bg-grayblack {
     background-color: #fff;
 }
 
@@ -687,9 +687,11 @@ Background & Block color
 }
 
 
-
+.highlight {
+    color: #daa520 !important;
+}
 .heading-color {
-    color: #ed1a3d;
+    color: #daa520;
 }
 
 /* Update 16 june 2017*/
@@ -713,6 +715,7 @@ Buttons
     background-color: #af9407;
     color: #fff;
     border: 2px solid #b1830b;
+    border-color: #af9407;
 }
 
     .btn-default:hover {
@@ -1094,8 +1097,8 @@ icon
 
 #testimonial .owl-next, #testimonial .owl-prev {
     background-color: transparent !important;
-    border: 2px solid #b1830b;
-    color: #b1830b;
+    border: 2px solid #ffd700;
+    color: #ffd700;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -1171,8 +1174,8 @@ top bar
 .logo {
     width: 68%;
 }
-.gold-paragraph {
-    background-color: #96810c;
+.black-paragraph {
+    background-color: #000000;
     color: #FFF !important;
     padding: 20px 3%;
     margin: 20px 0;
@@ -1327,19 +1330,32 @@ display: block; background: #dddddd; content: '';}*/
         margin-left: 0;
         margin-right: 100%;
     }
-#section-about p {
+/*#section-about p {
     color: #414855;
 }
-    #navigation ul ul li a {
-        border-bottom: 1px solid #383838;
-        padding: 15px 15px 16px 15px;
-        width: 220px;
-        font-size: 13px;
-        text-decoration: none;
-        color: #fff;
-        font-weight: 500;
-        background: #383838;
-    }
+.team-content p {
+    color: #414855;
+}*/
+.gray-button {
+    background-color: #4c4647;
+    display: inline-block;
+    color: #FFF !important;
+    padding: 10px 10%;
+    font-weight: bold;
+}
+.text-box-color p{
+    color: #414855;
+}
+#navigation ul ul li a {
+    border-bottom: 1px solid #383838;
+    padding: 15px 15px 16px 15px;
+    width: 220px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    background: #2a2a2a;
+}
 
     #navigation ul ul li:last-child > a, .navigation ul ul li.last-item > a {
         border-bottom: 0;
@@ -3088,8 +3104,7 @@ Service Page & Block Css
     }
 
         #service .owl-next:hover, #service .owl-prev:hover {
-            background-color: #ee304f !important;
-            border: 2px solid #ee304f;
+            
             color: #fff;
         }
 
@@ -3390,7 +3405,7 @@ Page header
 .page-title {
     margin-bottom: 0px;
     font-size: 36px;
-    color: #00577f;
+    color: #f1f1f1;
 }
 
 .rate-block {
