@@ -412,6 +412,8 @@
     <Content Include="Views\Resources\Privacy_Policy.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\Resources\Subscribe.cshtml" />
+    <Content Include="Views\Email_Templates\User_success_email.cshtml" />
+    <Content Include="Views\Email_Templates\Adminestrator_email.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
