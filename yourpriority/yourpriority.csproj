@@ -427,6 +427,8 @@
     <Content Include="Views\Resources\Privacy_Policy.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\Resources\Subscribe.cshtml" />
+    <Content Include="Views\Email_Templates\User_success_email.cshtml" />
+    <Content Include="Views\Email_Templates\Adminestrator_email.cshtml" />
     <Content Include="Views\OurService\What_Comes_First.cshtml" />
     <Content Include="Views\Resources\_Top_Ways_To_Cut_Expenses.cshtml" />
     <Content Include="Views\Resources\_How_To_Refinance.cshtml" />
