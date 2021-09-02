@@ -207,6 +207,7 @@
     <Content Include="Assets\images\customer-1.jpg" />
     <Content Include="Assets\images\customer-2.jpg" />
     <Content Include="Assets\images\customer-3.jpg" />
+    <Content Include="Assets\images\Depreciation schedule.jpg" />
     <Content Include="Assets\images\error-img.png" />
     <Content Include="Assets\images\ft-logo.png" />
     <Content Include="Assets\images\google-play-img.png" />
@@ -231,6 +232,7 @@
     <Content Include="Assets\images\lender-small-4.png" />
     <Content Include="Assets\images\lender-small-5.png" />
     <Content Include="Assets\images\lender-small-6.png" />
+    <Content Include="Assets\images\lmi.PNG" />
     <Content Include="Assets\images\loan-icon-1.png" />
     <Content Include="Assets\images\loan-icon-2.png" />
     <Content Include="Assets\images\loan-icon-3.png" />
@@ -264,6 +266,7 @@
     <Content Include="Assets\images\mortgage.svg" />
     <Content Include="Assets\images\mortgage_brokers-newcastle-2019-clr.svg" />
     <Content Include="Assets\images\mortgage_brokers-tamworth-2019-clr.svg" />
+    <Content Include="Assets\images\news\How the RBA rate.jpg" />
     <Content Include="Assets\images\page-header.jpg" />
     <Content Include="Assets\images\pexels-sora-shimazaki-5668859.jpg" />
     <Content Include="Assets\images\piggy-bank.svg" />
@@ -439,6 +442,8 @@
     <Content Include="Views\Resources\_What_Are_The_Extra_Cost.cshtml" />
     <Content Include="Views\Resources\_2020_Christmas_Office_Closure_Dates.cshtml" />
     <Content Include="Views\Resources\_Your_Property_Invest_Checking.cshtml" />
+    <Content Include="Views\Resources\_Three_Key_Triggers.cshtml" />
+    <Content Include="Views\Resources\_How_Rba_Rate.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

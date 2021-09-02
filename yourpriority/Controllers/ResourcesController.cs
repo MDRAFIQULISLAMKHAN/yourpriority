@@ -86,5 +86,15 @@ namespace yourpriority.Controllers
         {
             return View();
         }
+
+        public ActionResult _Three_Key_Triggers()
+        {
+            return View();
+        }
+
+        public ActionResult _How_Rba_Rate()
+        {
+            return View();
+        }
     }
 }
