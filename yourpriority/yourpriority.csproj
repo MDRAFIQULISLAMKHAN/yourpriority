@@ -162,9 +162,11 @@
     <Content Include="Assets\fonts\fontellof887.svg" />
     <Content Include="Assets\images\2020 Christmas closure post.png" />
     <Content Include="Assets\images\24-hours-icon.png" />
+    <Content Include="Assets\images\5 questions for first home buyers.jpg" />
     <Content Include="Assets\images\anotherrba.png" />
     <Content Include="Assets\images\app-store-img.png" />
     <Content Include="Assets\images\Application Process graphic.png" />
+    <Content Include="Assets\images\APRA.jpg" />
     <Content Include="Assets\images\author.jpg" />
     <Content Include="Assets\images\blog-img-1.jpg" />
     <Content Include="Assets\images\blog-img-2.jpg" />
@@ -184,6 +186,7 @@
     <Content Include="Assets\images\business-slider-2.jpg" />
     <Content Include="Assets\images\business-slider-3.jpg" />
     <Content Include="Assets\images\Buy with confidence.png" />
+    <Content Include="Assets\images\Can I make extra repayments.jpg" />
     <Content Include="Assets\images\car.svg" />
     <Content Include="Assets\images\card-1.png" />
     <Content Include="Assets\images\card-2.png" />
@@ -198,6 +201,7 @@
     <Content Include="Assets\images\company-logo-3.png" />
     <Content Include="Assets\images\company-logo-4.png" />
     <Content Include="Assets\images\company-logo-5.png" />
+    <Content Include="Assets\images\Comparing apples with apples %282%29.jpg" />
     <Content Include="Assets\images\counter-wrapper.jpg" />
     <Content Include="Assets\images\credit-card.svg" />
     <Content Include="Assets\images\cta-img-2.jpg" />
@@ -264,6 +268,7 @@
     <Content Include="Assets\images\masonry-5.jpg" />
     <Content Include="Assets\images\masonry-6.jpg" />
     <Content Include="Assets\images\masonry-7.jpg" />
+    <Content Include="Assets\images\MFA0019_Facebook_Locked.jpg" />
     <Content Include="Assets\images\mortgage.svg" />
     <Content Include="Assets\images\mortgage_brokers-newcastle-2019-clr.svg" />
     <Content Include="Assets\images\mortgage_brokers-tamworth-2019-clr.svg" />
@@ -280,6 +285,7 @@
     <Content Include="Assets\images\process-img-1.jpg" />
     <Content Include="Assets\images\process-img-2.jpg" />
     <Content Include="Assets\images\process-img-3.jpg" />
+    <Content Include="Assets\images\Property inspection checklist.jpg" />
     <Content Include="Assets\images\Property investing checklist.jpg" />
     <Content Include="Assets\images\recent-img-1.jpg" />
     <Content Include="Assets\images\recent-img-2.jpg" />
@@ -288,6 +294,7 @@
     <Content Include="Assets\images\related-img-2.jpg" />
     <Content Include="Assets\images\roselyn-tirado-GDWmu0bFfS4-unsplash.jpg" />
     <Content Include="Assets\images\saving-img.jpg" />
+    <Content Include="Assets\images\scissors-1803670_1920.jpg" />
     <Content Include="Assets\images\shield-icon.png" />
     <Content Include="Assets\images\slider-1.jpg" />
     <Content Include="Assets\images\slider-2.jpg" />
@@ -295,6 +302,7 @@
     <Content Include="Assets\images\slider-4.jpg" />
     <Content Include="Assets\images\slider-5.jpg" />
     <Content Include="Assets\images\slider-6.jpg" />
+    <Content Include="Assets\images\Stamp duty explained.jpg" />
     <Content Include="Assets\images\student-slider-1.jpg" />
     <Content Include="Assets\images\student-slider-2.jpg" />
     <Content Include="Assets\images\student-slider-3.jpg" />
@@ -313,11 +321,15 @@
     <Content Include="Assets\images\testimonial-img-1.jpg" />
     <Content Include="Assets\images\testimonial-img-2.jpg" />
     <Content Include="Assets\images\testimonial-img.jpg" />
+    <Content Include="Assets\images\Thinking of buying off the plan.jpg" />
     <Content Include="Assets\images\user-pic-1.jpg" />
     <Content Include="Assets\images\user-pic-2.jpg" />
     <Content Include="Assets\images\user-pic-3.jpg" />
     <Content Include="Assets\images\user-pic-4.jpg" />
     <Content Include="Assets\images\What are the extra costs to buying a home.jpg" />
+    <Content Include="Assets\images\What to consider when buying a second property.jpg" />
+    <Content Include="Assets\images\When is the best time to refinance.jpg" />
+    <Content Include="Assets\images\Why some interest only borrowers.jpg" />
     <Content Include="Assets\images\Winners Photo 2018 resized.jpg" />
     <Content Include="Assets\images\zoom-1.jpg" />
     <Content Include="Assets\images\zoom-2.jpg" />
