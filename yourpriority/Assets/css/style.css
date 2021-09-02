@@ -127,9 +127,10 @@ a {
         text-decoration: none;
         color: #ece1a4;
     }
-ol li p {
+/*ol li p {
     color: #414855;
-}
+}*/
+
 /*.zero p {
     color: #414855;
 }*/
@@ -198,7 +199,7 @@ p:last-child {
 }
 
 .lead {
-    color: #3c4d6b;
+    color: #b08206;
     line-height: 30px;
     font-size: 20px;
 }
@@ -246,7 +247,7 @@ p:last-child {
 }
 
 .text-primary {
-    color: #15549a !important;
+    color: #c39007 !important;
 }
 
 .border-default {
@@ -960,7 +961,7 @@ Bullet
     position: absolute;
     left: 0;
     font-size: 15px;
-    color: #747474;
+    color: #c39007;
     content: "\f101";
 }
 
@@ -1007,10 +1008,10 @@ Bullet
         color: #f51f8a;
     }
 .menu-li a {
-    color: #00577f;
+    color: #a68164;
 }
 .menu-li-list a {
-    color: #00577f;
+    color: #a68164;
 }
 .btn-box {
     margin-top:25px;
@@ -1343,9 +1344,9 @@ display: block; background: #dddddd; content: '';}*/
     padding: 10px 10%;
     font-weight: bold;
 }
-.text-box-color p{
+/*.text-box-color p{
     color: #414855;
-}
+}*/
 #navigation ul ul li a {
     border-bottom: 1px solid #383838;
     padding: 15px 15px 16px 15px;
@@ -4298,7 +4299,7 @@ Team
 
 .designation {
     font-size: 12px;
-    color: #f51f8a;
+    color: #b08206;
     text-transform: uppercase;
     font-weight: 600;
 }
