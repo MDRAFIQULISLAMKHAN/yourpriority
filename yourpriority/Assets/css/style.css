@@ -530,7 +530,7 @@ Padding space
     padding-top: 220px;
 }
 .bg-grayblack {
-    background-color: #383838 !important;
+    background-color: #2a2a2a !important;
 }
 .info-text {
     margin-bottom: 10px;
@@ -915,7 +915,9 @@ select {
     border-radius: .25rem;
     margin-right: -1px;
 }
-
+.background-image {
+    width: auto;
+}
 /*-----------------------------------------
 content
 ------------------------------------------*/
@@ -1039,7 +1041,7 @@ icon
     padding-top: 20px;
 }
 .height-box {
-    height: 204px;
+    height: 195px;
 }
 .icon-1x {
     font-size: 24px;
@@ -1761,7 +1763,7 @@ index-1
     background-color: #000;
     border-top: 1px solid #b1830b;
     border-bottom: 1px solid #b1830b;
-    margin-top: -22px;
+    margin-top: -20px;
 }
 
 .loan-rate {
@@ -3285,7 +3287,7 @@ footer
 }
 
 .footer {
-    background-color: #2d2c2c;
+    background-color: #2a2a2a;
     color: #fff;
 }
 
@@ -3884,7 +3886,10 @@ Pagination
             border-color: #00577f;
             border-radius: 4px;
         }
-
+.pagination {
+    margin-top: -80px;
+    margin-bottom: 20px;
+}
     .st-pagination .pagination > li:first-child > a, .st-pagination .pagination > li:first-child > span {
         margin-left: 0;
         border-radius: 4px;
@@ -5011,566 +5016,574 @@ Landing Page Template
     padding-bottom: 16px;
     color: #3c4d6b;
 }
-
-@media screen and (max-width:1366px) {
-    .second-img {
-        top: 9%;
+@media screen and (max-width:1200px) {
+    .mr10{
+        margin-right: 0px;
     }
-
-    .slider-captions {
-        position: absolute;
-        width: 100%;
-    }
-
-    .slider-title {
-        color: #fff;
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 42px;
-    }
-
-    .slider .owl-prev {
-        position: absolute;
-        left: 0px;
-        top: 40%;
-        left: 0px;
-    }
-
-    .slider .owl-next {
-        position: absolute;
-        right: 0px;
-        top: 40%;
-        right: 0px;
+    .ml10{
+        margin-left: 0px;
     }
 }
 
-@media screen and (min-width:1300px) and (max-width:1440px) {
-    .slider-captions {
-        position: absolute;
-        bottom: 100px;
-        width: 100%;
-    }
-}
-
-@media screen and (min-width:992px) and (max-width:1200px) {
-
-    /*--------------- index - 8 -------------*/
-    .refinance-rate-block-title {
-        letter-spacing: 0px;
-        font-weight: 600;
-        font-size: 27px;
-    }
-
-    .loan-half-section {
-        padding: 50px;
-    }
-
-    /*--------------- card landing page  ---------- */
-    .card-benefit-tabs .st-tabs .nav-link {
-        display: block;
-        padding: 16px 27px;
-    }
-
-    /*--------------- borrow life saving   ---------- */
-    .bank-account-tabs.st-tabs .nav-link {
-        padding: 16px 46px;
-    }
-}
-
-/*============= media query max-width: 768px; =============*/
-@media only screen and (max-width:768px) {
-
-    /* start query */
-    .header {
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-
-    .logo {
-        width:9%;
-    }
-
-    /*--------------- slider for mobile view ( for mobile view  )---------- */
-    .slider-captions {
-        position: absolute;
-        bottom: 28px;
-        text-align: center;
-    }
-
-    .slider-title {
-        color: #fff;
-        font-size: 22px;
-        text-transform: uppercase;
-        font-weight: 700;
-        line-height: 26px;
-    }
-
-    .slider .owl-prev {
-        position: absolute;
-        left: 0px;
-        top: 30%;
-        left: 0px;
-    }
-
-    .slider .owl-next {
-        position: absolute;
-        right: 0px;
-        top: 30%;
-        right: 0px;
-    }
-
-    /*--------------- Page Header ( for mobile view  )---------- */
-    .page-header {
-        padding: 40px 0px 80px;
-    }
-
-    .page-title {
-        font-size: 28px;
-        margin-bottom: 14px;
-    }
-
-    .btn-action {
-        text-align: center;
-    }
-
-        .btn-action .btn {
-            padding: 10px;
-            float: left;
-            margin-left: 5px;
+    @media screen and (max-width:1366px) {
+        .second-img {
+            top: 9%;
         }
 
-    .sub-nav > .nav li a {
-        border-bottom: 1px solid #dee7f2;
-        margin-bottom: 0px;
+        .slider-captions {
+            position: absolute;
+            width: 100%;
+        }
+
+        .slider-title {
+            color: #fff;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 42px;
+        }
+
+        .slider .owl-prev {
+            position: absolute;
+            left: 0px;
+            top: 40%;
+            left: 0px;
+        }
+
+        .slider .owl-next {
+            position: absolute;
+            right: 0px;
+            top: 40%;
+            right: 0px;
+        }
     }
 
-    .childern {
-        padding-left: 0px;
+    @media screen and (min-width:1300px) and (max-width:1440px) {
+        .slider-captions {
+            position: absolute;
+            bottom: 100px;
+            width: 100%;
+        }
     }
 
-    .widget-share {
-        background-color: #fff;
-        padding: 14px;
-        position: absolute;
-        top: 0px;
-        right: 0px;
-    }
+    @media screen and (min-width:992px) and (max-width:1200px) {
 
-    .search-nav {
-        display: none;
-    }
+        /*--------------- index - 8 -------------*/
+        .refinance-rate-block-title {
+            letter-spacing: 0px;
+            font-weight: 600;
+            font-size: 27px;
+        }
 
-    .rate-counter-block {
-        text-align: center;
-    }
+        .loan-half-section {
+            padding: 50px;
+        }
 
-    .rate-icon {
-        float: none;
-        margin-bottom: 10px;
-    }
-
-    .loan-rate {
-        font-size: 24px;
-    }
-
-    /*--------------- index - 4 ()-------------*/
-    .header-transparent {
-        position: relative;
-        background-color: #15549a;
-    }
-
-        .header-transparent #navigation.small-screen #menu-button {
+        /*--------------- card landing page  ---------- */
+        .card-benefit-tabs .st-tabs .nav-link {
             display: block;
-            padding: 16px 0px;
-            color: #f51f8a;
-            cursor: pointer;
-            font-size: 12px;
+            padding: 16px 27px;
+        }
+
+        /*--------------- borrow life saving   ---------- */
+        .bank-account-tabs.st-tabs .nav-link {
+            padding: 16px 46px;
+        }
+    }
+
+    /*============= media query max-width: 768px; =============*/
+    @media only screen and (max-width:768px) {
+
+        /* start query */
+        .header {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .logo {
+            width: 9%;
+        }
+
+        /*--------------- slider for mobile view ( for mobile view  )---------- */
+        .slider-captions {
+            position: absolute;
+            bottom: 28px;
+            text-align: center;
+        }
+
+        .slider-title {
+            color: #fff;
+            font-size: 22px;
             text-transform: uppercase;
             font-weight: 700;
-            border-top: 1px solid #0a4587;
-            margin-top: 20px;
+            line-height: 26px;
         }
 
-        .header-transparent #navigation.small-screen ul li {
-            width: 100%;
-            border-top: 1px solid #0a4587;
-        }
-
-        .header-transparent #navigation.small-screen .submenu-button {
+        .slider .owl-prev {
             position: absolute;
-            z-index: 99;
-            right: 0;
-            top: 0;
+            left: 0px;
+            top: 30%;
+            left: 0px;
+        }
+
+        .slider .owl-next {
+            position: absolute;
+            right: 0px;
+            top: 30%;
+            right: 0px;
+        }
+
+        /*--------------- Page Header ( for mobile view  )---------- */
+        .page-header {
+            padding: 40px 0px 80px;
+        }
+
+        .page-title {
+            font-size: 28px;
+            margin-bottom: 14px;
+        }
+
+        .btn-action {
+            text-align: center;
+        }
+
+            .btn-action .btn {
+                padding: 10px;
+                float: left;
+                margin-left: 5px;
+            }
+
+        .sub-nav > .nav li a {
+            border-bottom: 1px solid #dee7f2;
+            margin-bottom: 0px;
+        }
+
+        .childern {
+            padding-left: 0px;
+        }
+
+        .widget-share {
+            background-color: #fff;
+            padding: 14px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+        .search-nav {
+            display: none;
+        }
+
+        .rate-counter-block {
+            text-align: center;
+        }
+
+        .rate-icon {
+            float: none;
+            margin-bottom: 10px;
+        }
+
+        .loan-rate {
+            font-size: 24px;
+        }
+
+        /*--------------- index - 4 ()-------------*/
+        .header-transparent {
+            position: relative;
+            background-color: #15549a;
+        }
+
+            .header-transparent #navigation.small-screen #menu-button {
+                display: block;
+                padding: 16px 0px;
+                color: #f51f8a;
+                cursor: pointer;
+                font-size: 12px;
+                text-transform: uppercase;
+                font-weight: 700;
+                border-top: 1px solid #0a4587;
+                margin-top: 20px;
+            }
+
+            .header-transparent #navigation.small-screen ul li {
+                width: 100%;
+                border-top: 1px solid #0a4587;
+            }
+
+            .header-transparent #navigation.small-screen .submenu-button {
+                position: absolute;
+                z-index: 99;
+                right: 0;
+                top: 0;
+                display: block;
+                border-left: 1px solid #0a4587;
+                height: 46px;
+                width: 46px;
+                cursor: pointer;
+            }
+
+            .header-transparent #navigation.small-screen ul ul li a {
+                color: #fff;
+                background: none;
+            }
+
+        .video-play {
+            left: 39%;
+            top: 45px;
+        }
+
+        .st-tabs .nav-link {
+            padding: 16px 11px;
+        }
+
+        .lender-ads-rate, .lender-compare-rate {
+            width: 123px;
+        }
+
+        .sub-nav > .nav li a {
+            padding: 8px 0px;
+            font-size: 11px;
+        }
+
+        .portfolioFilter a {
+            text-transform: uppercase;
+            background-color: #eff3f8;
+            padding: 9px 23px;
+        }
+
+        /*--------------- index-6 ---------- */
+        .lead-hero-caption {
+            padding-top: 0px;
+        }
+
+        .header-wide .lead {
+            font-size: 19px;
+        }
+
+        /*--------------- index-7 ---------- */
+
+        /*--------------- index-8 ---------- */
+        .refinance-hero-block {
+            padding-top: 100px;
+            padding-bottom: 160px;
+        }
+
+        .loan-half-section {
+            padding: 66px;
+        }
+
+        /*--------------- compare credit card  ---------- */
+        .expandable-info .card {
+            min-height: inherit;
+        }
+
+        /*--------------- compare personal loan card  ---------- */
+        .compare-personal-loan-table .table > tbody > tr > td {
+            padding: 6px;
+        }
+
+        .compare-personal-loan-title {
+            font-size: 13px;
+            font-weight: 600;
             display: block;
-            border-left: 1px solid #0a4587;
-            height: 46px;
-            width: 46px;
-            cursor: pointer;
+            width: 148px;
         }
 
-        .header-transparent #navigation.small-screen ul ul li a {
+        .expandable-info .card {
+            min-height: inherit;
+        }
+
+        /*--------------- compare student loan card  ---------- */
+        .compare-student-loan-table .table > tbody > tr > td {
+            padding: 6px;
+        }
+
+        .compare-student-loan-title {
+            font-size: 13px;
+            font-weight: 600;
+            display: block;
+            width: 148px;
+        }
+
+        .expandable-info .card {
+            min-height: inherit;
+        }
+
+        /*--------------- card landing page  ---------- */
+        .header-wide .lead, .header-wide .lead {
+            font-size: 21px;
+        }
+
+        .card-benefit-tabs .st-tabs .nav-link {
+            display: block;
+            padding: 16px 8px;
+        }
+
+        .card-benefit-tabs .st-tabs a {
+            font-size: 12px;
+        }
+
+        /*--------------- Index - 9 bank borrow  ---------- */
+        .overlay-section {
+            margin-top: 0px;
+        }
+
+            .overlay-section .card {
+                margin-bottom: 20px;
+            }
+
+        .post-caption-content h3 {
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+
+    @media only screen and (max-width:460px) {
+        .slider-img img {
+            height: 200px;
+        }
+
+        .image-mobile {
+            width: 112px;
+            margin-top: 3px;
+        }
+        /*--------------- slider for mobile view ( for mobile view  )---------- */
+        .slider-captions {
+            position: absolute;
+            bottom: 10px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .slider-title {
             color: #fff;
-            background: none;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 700;
+            line-height: 26px;
         }
 
-    .video-play {
-        left: 39%;
-        top: 45px;
-    }
-
-    .st-tabs .nav-link {
-        padding: 16px 11px;
-    }
-
-    .lender-ads-rate, .lender-compare-rate {
-        width: 123px;
-    }
-
-    .sub-nav > .nav li a {
-        padding: 8px 0px;
-        font-size: 11px;
-    }
-
-    .portfolioFilter a {
-        text-transform: uppercase;
-        background-color: #eff3f8;
-        padding: 9px 23px;
-    }
-
-    /*--------------- index-6 ---------- */
-    .lead-hero-caption {
-        padding-top: 0px;
-    }
-
-    .header-wide .lead {
-        font-size: 19px;
-    }
-
-    /*--------------- index-7 ---------- */
-
-    /*--------------- index-8 ---------- */
-    .refinance-hero-block {
-        padding-top: 100px;
-        padding-bottom: 160px;
-    }
-
-    .loan-half-section {
-        padding: 66px;
-    }
-
-    /*--------------- compare credit card  ---------- */
-    .expandable-info .card {
-        min-height: inherit;
-    }
-
-    /*--------------- compare personal loan card  ---------- */
-    .compare-personal-loan-table .table > tbody > tr > td {
-        padding: 6px;
-    }
-
-    .compare-personal-loan-title {
-        font-size: 13px;
-        font-weight: 600;
-        display: block;
-        width: 148px;
-    }
-
-    .expandable-info .card {
-        min-height: inherit;
-    }
-
-    /*--------------- compare student loan card  ---------- */
-    .compare-student-loan-table .table > tbody > tr > td {
-        padding: 6px;
-    }
-
-    .compare-student-loan-title {
-        font-size: 13px;
-        font-weight: 600;
-        display: block;
-        width: 148px;
-    }
-
-    .expandable-info .card {
-        min-height: inherit;
-    }
-
-    /*--------------- card landing page  ---------- */
-    .header-wide .lead, .header-wide .lead {
-        font-size: 21px;
-    }
-
-    .card-benefit-tabs .st-tabs .nav-link {
-        display: block;
-        padding: 16px 8px;
-    }
-
-    .card-benefit-tabs .st-tabs a {
-        font-size: 12px;
-    }
-
-    /*--------------- Index - 9 bank borrow  ---------- */
-    .overlay-section {
-        margin-top: 0px;
-    }
-
-        .overlay-section .card {
-            margin-bottom: 20px;
+        .slider .owl-prev {
+            position: absolute;
+            left: 0px;
+            top: 30%;
+            left: 0px;
         }
 
-    .post-caption-content h3 {
-        font-size: 12px;
-        line-height: 18px;
-    }
-}
-
-@media only screen and (max-width:460px) {
-    .slider-img img {
-        height: 200px;
-    }
-
-    .image-mobile {
-        width: 112px;
-        margin-top: 3px;
-    }
-    /*--------------- slider for mobile view ( for mobile view  )---------- */
-    .slider-captions {
-        position: absolute;
-        bottom: 10px;
-        text-align: center;
-        width: 100%;
-    }
-
-    .slider-title {
-        color: #fff;
-        font-size: 18px;
-        text-transform: uppercase;
-        font-weight: 700;
-        line-height: 26px;
-    }
-
-    .slider .owl-prev {
-        position: absolute;
-        left: 0px;
-        top: 30%;
-        left: 0px;
-    }
-
-    .slider .owl-next {
-        position: absolute;
-        right: 0px;
-        top: 30%;
-        right: 0px;
-    }
-
-    .rate-icon {
-        float: none;
-    }
-
-    .rate-counter-block {
-        text-align: center;
-    }
-
-    .loan-rate {
-        font-size: 24px;
-    }
-
-    .widget-share {
-        background-color: #fff;
-        padding: 14px;
-        position: absolute;
-        top: 0px;
-        right: 0px;
-    }
-
-    .search-nav {
-        display: none;
-    }
-
-    .top-text {
-        padding-left: 14px;
-    }
-
-    .header-action {
-        text-align: center;
-    }
-
-    .rate-badge {
-        display: none;
-    }
-
-    .video-play {
-        left: 39%;
-    }
-
-    /*--------------- index-6 ---------- */
-    .lead-hero-caption {
-        padding-top: 0px;
-    }
-
-    /*--------------- index-7 ---------- */
-    #navigation {
-        margin-top: 18px;
-    }
-
-    .hero-tab-block {
-        padding-top: 91px;
-        padding-bottom: 100px;
-    }
-
-    /*--------------- index-8 ---------- */
-    .refinance-rate-block-title {
-        font-size: 24px;
-    }
-
-    .refinance-hero-block {
-        padding-top: 44px;
-    }
-
-    /*--------------- compare credit card  ---------- */
-    .compare-table .table > tbody > tr > td {
-        padding: 10px;
-    }
-
-    .compare-card-title {
-        font-size: 13px;
-        font-weight: 600;
-        display: block;
-        width: 148px;
-    }
-
-    .expandable-info .card {
-        min-height: inherit;
-    }
-
-    /*--------------- compare personal loan card  ---------- */
-    .compare-personal-loan-table .table > tbody > tr > td {
-        padding: 10px;
-    }
-
-    .compare-personal-loan-title {
-        font-size: 13px;
-        font-weight: 600;
-        display: block;
-        width: 148px;
-    }
-
-    .expandable-info .card {
-        min-height: inherit;
-    }
-
-    /*--------------- compare student loan card  ---------- */
-    .compare-student-loan-table .table > tbody > tr > td {
-        padding: 10px;
-    }
-
-    .compare-student-loan-title {
-        font-size: 13px;
-        font-weight: 600;
-        display: block;
-        width: 148px;
-    }
-
-    .expandable-info .card {
-        min-height: inherit;
-    }
-
-    /*--------------- card landing page  ---------- */
-    .card-benefit-tabs .st-tabs .nav-link {
-        display: block;
-        padding: 16px 58px;
-        border: 1px solid #f6f9ff;
-        border-radius: 5px;
-        background-color: #f6f9ff;
-        margin-bottom: 8px;
-        margin-right: 10px;
-    }
-
-    .header-wide .lead, .header-wide .lead {
-        font-size: 13px;
-    }
-
-    .card-hero-section {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-
-    /*--------------- Index - 9 bank borrow  ---------- */
-    .overlay-section {
-        margin-top: 0px;
-    }
-
-        .overlay-section .card {
-            margin-bottom: 20px;
+        .slider .owl-next {
+            position: absolute;
+            right: 0px;
+            top: 30%;
+            right: 0px;
         }
 
-    .hover-tabs.st-tabs .nav-link {
-        display: block;
-        padding: 0px 39px 3px 0px;
+        .rate-icon {
+            float: none;
+        }
+
+        .rate-counter-block {
+            text-align: center;
+        }
+
+        .loan-rate {
+            font-size: 24px;
+        }
+
+        .widget-share {
+            background-color: #fff;
+            padding: 14px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+        .search-nav {
+            display: none;
+        }
+
+        .top-text {
+            padding-left: 14px;
+        }
+
+        .header-action {
+            text-align: center;
+        }
+
+        .rate-badge {
+            display: none;
+        }
+
+        .video-play {
+            left: 39%;
+        }
+
+        /*--------------- index-6 ---------- */
+        .lead-hero-caption {
+            padding-top: 0px;
+        }
+
+        /*--------------- index-7 ---------- */
+        #navigation {
+            margin-top: 18px;
+        }
+
+        .hero-tab-block {
+            padding-top: 91px;
+            padding-bottom: 100px;
+        }
+
+        /*--------------- index-8 ---------- */
+        .refinance-rate-block-title {
+            font-size: 24px;
+        }
+
+        .refinance-hero-block {
+            padding-top: 44px;
+        }
+
+        /*--------------- compare credit card  ---------- */
+        .compare-table .table > tbody > tr > td {
+            padding: 10px;
+        }
+
+        .compare-card-title {
+            font-size: 13px;
+            font-weight: 600;
+            display: block;
+            width: 148px;
+        }
+
+        .expandable-info .card {
+            min-height: inherit;
+        }
+
+        /*--------------- compare personal loan card  ---------- */
+        .compare-personal-loan-table .table > tbody > tr > td {
+            padding: 10px;
+        }
+
+        .compare-personal-loan-title {
+            font-size: 13px;
+            font-weight: 600;
+            display: block;
+            width: 148px;
+        }
+
+        .expandable-info .card {
+            min-height: inherit;
+        }
+
+        /*--------------- compare student loan card  ---------- */
+        .compare-student-loan-table .table > tbody > tr > td {
+            padding: 10px;
+        }
+
+        .compare-student-loan-title {
+            font-size: 13px;
+            font-weight: 600;
+            display: block;
+            width: 148px;
+        }
+
+        .expandable-info .card {
+            min-height: inherit;
+        }
+
+        /*--------------- card landing page  ---------- */
+        .card-benefit-tabs .st-tabs .nav-link {
+            display: block;
+            padding: 16px 58px;
+            border: 1px solid #f6f9ff;
+            border-radius: 5px;
+            background-color: #f6f9ff;
+            margin-bottom: 8px;
+            margin-right: 10px;
+        }
+
+        .header-wide .lead, .header-wide .lead {
+            font-size: 13px;
+        }
+
+        .card-hero-section {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+
+        /*--------------- Index - 9 bank borrow  ---------- */
+        .overlay-section {
+            margin-top: 0px;
+        }
+
+            .overlay-section .card {
+                margin-bottom: 20px;
+            }
+
+        .hover-tabs.st-tabs .nav-link {
+            display: block;
+            padding: 0px 39px 3px 0px;
+        }
+
+        .quick-info span:nth-child(2) {
+            display: none;
+        }
+        /*--------------- borrow-life-saving  ---------- */
+        .bank-account-tabs.st-tabs .nav-link {
+            padding: 16px 57px;
+        }
     }
 
-    .quick-info span:nth-child(2) {
-        display: none;
-    }
-    /*--------------- borrow-life-saving  ---------- */
-    .bank-account-tabs.st-tabs .nav-link {
-        padding: 16px 57px;
-    }
-}
+    @media only screen and (max-width:320px) {
 
-@media only screen and (max-width:320px) {
+        /*--------------- slider for mobile view ( for mobile view  )---------- */
+        .slider-captions {
+            position: absolute;
+            bottom: 18px;
+            text-align: center;
+            width: 100%;
+        }
 
-    /*--------------- slider for mobile view ( for mobile view  )---------- */
-    .slider-captions {
-        position: absolute;
-        bottom: 18px;
-        text-align: center;
-        width: 100%;
-    }
+        .slider-title {
+            color: #fff;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 700;
+            line-height: 26px;
+        }
 
-    .slider-title {
-        color: #fff;
-        font-size: 18px;
-        text-transform: uppercase;
-        font-weight: 700;
-        line-height: 26px;
-    }
+        .slider .owl-prev {
+            position: absolute;
+            left: 0px;
+            top: 30%;
+            left: 0px;
+        }
 
-    .slider .owl-prev {
-        position: absolute;
-        left: 0px;
-        top: 30%;
-        left: 0px;
-    }
+        .slider .owl-next {
+            position: absolute;
+            right: 0px;
+            top: 30%;
+            right: 0px;
+        }
 
-    .slider .owl-next {
-        position: absolute;
-        right: 0px;
-        top: 30%;
-        right: 0px;
-    }
+        .rate-icon {
+            float: none;
+        }
 
-    .rate-icon {
-        float: none;
-    }
+        .rate-counter-block {
+            text-align: center;
+        }
 
-    .rate-counter-block {
-        text-align: center;
-    }
+        .loan-rate {
+            font-size: 24px;
+        }
 
-    .loan-rate {
-        font-size: 24px;
-    }
+        .widget-share {
+            background-color: #fff;
+            padding: 14px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
 
-    .widget-share {
-        background-color: #fff;
-        padding: 14px;
-        position: absolute;
-        top: 0px;
-        right: 0px;
+        .search-nav {
+            display: none;
+        }
     }
-
-    .search-nav {
-        display: none;
-    }
-}
