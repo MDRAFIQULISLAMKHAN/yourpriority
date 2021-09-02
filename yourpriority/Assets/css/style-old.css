@@ -60,18 +60,18 @@ General css class
 -----------------------------------*/
 
 body {
-    font-size: 14px;
-    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.4;
     color: #778191;
-    background-color: #000;
+    background-color: #f4f6f8;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0px 0px 10px 0px;
-    color: gold;
+    color: #3c4d6b;
     font-weight: 500;
 }
 
@@ -108,7 +108,6 @@ p {
     margin: 0 0 26px;
     line-height: 1.6;
     font-weight: 400;
-    color: #fff;
 }
 
 ul, ol {
@@ -119,21 +118,15 @@ ul, ol {
     }
 
 a {
-    color: #96810c;
+    color: #ed193d;
     text-decoration: none;
 }
 
     a:focus, a:hover {
         text-decoration: none;
-        color: #ece1a4;
+        color: #ed193d;
     }
-/*ol li p {
-    color: #414855;
-}*/
 
-/*.zero p {
-    color: #414855;
-}*/
 strong {
     font-weight: 600;
 }
@@ -199,7 +192,7 @@ p:last-child {
 }
 
 .lead {
-    color: #b08206;
+    color: #3c4d6b;
     line-height: 30px;
     font-size: 20px;
 }
@@ -215,11 +208,11 @@ p:last-child {
 }
 
 .title-white {
-    color: gold;
+    color: #fff;
 }
 
 .title {
-    color: gold;
+    color: #3c4d6b;
 }
 
 .text-bold {
@@ -247,7 +240,7 @@ p:last-child {
 }
 
 .text-primary {
-    color: #c39007 !important;
+    color: #15549a !important;
 }
 
 .border-default {
@@ -529,13 +522,7 @@ Padding space
 .y {
     padding-top: 220px;
 }
-.bg-grayblack {
-    background-color: #383838 !important;
-}
-.info-text {
-    margin-bottom: 10px;
-    color: #ab9c4d;
-}
+
 /*---------------
 Section Space
 * Section space help to create top bottom space. 
@@ -589,16 +576,16 @@ Background & Block color
 }
 
 .bg-default {
-    background-color: #000;
+    background-color: #00577f;
     color: #87c0ff;
 }
 
-.bg-grayblack {
+.bg-white {
     background-color: #fff;
 }
 
 .outline {
-    border: 1px solid #000;
+    border: 1px solid #dee4ee;
 }
 
 .link-title {
@@ -631,7 +618,7 @@ Background & Block color
 .bg-boxshadow {
     -webkit-box-shadow: 0px 4px 16px 3px rgba(213, 221, 234, .5);
     -moz-box-shadow: 0px 4px 16px 3px rgba(213, 221, 234, .5);
-    box-shadow: 0px 4px 16px 3px rgb(69 70 72 / 50%);
+    box-shadow: 0px 4px 16px 3px rgba(213, 221, 234, .5);
 }
 
 .bg-gradient {
@@ -688,11 +675,13 @@ Background & Block color
 }
 
 
-.highlight {
-    color: #daa520 !important;
-}
+
 .heading-color {
-    color: #daa520;
+    color: #ed1a3d;
+}
+.pagination {
+    margin-top: -80px;
+    margin-bottom: 15px;
 }
 
 /* Update 16 june 2017*/
@@ -713,16 +702,15 @@ Buttons
 }
 
 .btn-default {
-    background-color: #af9407;
+    background-color: #ed193d;
     color: #fff;
-    border: 2px solid #b1830b;
-    border-color: #af9407;
+    border-color: #ed193d;
 }
 
     .btn-default:hover {
-        color: #b1830b;
-        background-color: #fff;
-        border: 2px solid #b1830b;
+        color: #fff;
+        background-color: #ed193d;
+        border-color: #ed193d;
     }
 
     .btn-default.focus, .btn-default:focus {
@@ -755,15 +743,15 @@ Buttons
     }
 
 .btn-outline {
-    border: 2px solid #b1830b;
-    color: #b1830b;
+    border: 2px solid #00577f;
+    color: #00577f;
     background-color: transparent;
     padding: 17px 28px;
 }
 
     .btn-outline:hover {
-        border: 2px solid #b1830b;
-        color: #b1830b;
+        border: 2px solid #dee4ee;
+        color: #6a7a94;
         background-color: #dee4ee;
     }
 
@@ -785,19 +773,19 @@ Buttons
 }
 
 .btn-link {
-    color: gold;
+    color: #00567f;
     font-weight: 500;
     padding-bottom: 4px;
-    border-bottom: 2px solid gold;
+    border-bottom: 2px solid #00567f;
     display: inline-block;
     text-decoration: none;
 }
 
     .btn-link:hover {
-        color: #ece1a4;
+        color: #ed193d;
         font-weight: 500;
         padding-bottom: 4px;
-        border-bottom: 2px solid #ece1a4;
+        border-bottom: 2px solid #ed193d;
         text-decoration: none;
     }
 
@@ -961,7 +949,7 @@ Bullet
     position: absolute;
     left: 0;
     font-size: 15px;
-    color: #c39007;
+    color: #747474;
     content: "\f101";
 }
 
@@ -1008,10 +996,10 @@ Bullet
         color: #f51f8a;
     }
 .menu-li a {
-    color: #a68164;
+    color: #00577f;
 }
 .menu-li-list a {
-    color: #a68164;
+    color: #00577f;
 }
 .btn-box {
     margin-top:25px;
@@ -1068,7 +1056,7 @@ icon
 }
 
 .icon-primary {
-    color: #B1830B;
+    color: #15549a;
 }
 
 .icon-secondary {
@@ -1098,8 +1086,8 @@ icon
 
 #testimonial .owl-next, #testimonial .owl-prev {
     background-color: transparent !important;
-    border: 2px solid #ffd700;
-    color: #ffd700;
+    border: 2px solid #a3b1c1;
+    color: #a3b1c1;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -1118,7 +1106,7 @@ top bar
 .top-bar {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: var(--dark);
+    background-color: #00577f;
     font-size: 12px;
     color: #fff;
     font-weight: 500;
@@ -1131,7 +1119,7 @@ top bar
 }
 
     .top-text a {
-        color: #ab9c4d;
+        color: #fff;
     }
 
         .top-text a:hover {
@@ -1162,7 +1150,7 @@ top bar
 }
 
 .header {
-    background-color: #000;
+    background-color: #fff;
     padding-top: 20px;
     padding-bottom: 20px;
     position: relative;
@@ -1175,18 +1163,7 @@ top bar
 .logo {
     width: 68%;
 }
-.black-paragraph {
-    background-color: #000000;
-    color: #FFF !important;
-    padding: 20px 3%;
-    margin: 20px 0;
-    font-weight: 500;
-    font-size: 18px;
-}
-.image-award {
-    width: 200px;
-    margin-right: 20px;
-}
+
 .navigation-wide {
     background-color: #15549a
 }
@@ -1256,13 +1233,13 @@ top bar
         padding: 16px 10px;
         font-size: 13px;
         text-decoration: none;
-        color: gold;
+        color: #66707f;
         font-weight: 600;
         text-transform: uppercase;
     }
 
     #navigation > ul > li:hover > a {
-        color: #fff;
+        color: #ed193d;
     }
 
     #navigation > ul > li.has-sub > a {
@@ -1331,32 +1308,17 @@ display: block; background: #dddddd; content: '';}*/
         margin-left: 0;
         margin-right: 100%;
     }
-/*#section-about p {
-    color: #414855;
-}
-.team-content p {
-    color: #414855;
-}*/
-.gray-button {
-    background-color: #4c4647;
-    display: inline-block;
-    color: #FFF !important;
-    padding: 10px 10%;
-    font-weight: bold;
-}
-/*.text-box-color p{
-    color: #414855;
-}*/
-#navigation ul ul li a {
-    border-bottom: 1px solid #383838;
-    padding: 15px 15px 16px 15px;
-    width: 220px;
-    font-size: 13px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-    background: #2a2a2a;
-}
+
+    #navigation ul ul li a {
+        border-bottom: 1px solid rgba(222, 231, 242, 1);
+        padding: 15px 15px 16px 15px;
+        width: 220px;
+        font-size: 13px;
+        text-decoration: none;
+        color: #66707f;
+        font-weight: 500;
+        background: #fff;
+    }
 
     #navigation ul ul li:last-child > a, .navigation ul ul li.last-item > a {
         border-bottom: 0;
@@ -1364,7 +1326,7 @@ display: block; background: #dddddd; content: '';}*/
 
     #navigation ul ul li:hover > a, #navigation ul ul li a:hover {
         color: #fff;
-        background-color: #9c8403;
+        background-color: #ed193d;
     }
 
     #navigation ul ul li.has-sub > a:after {
@@ -1726,9 +1688,9 @@ display: block; background: #dddddd; content: '';}*/
 }
 
     #slider .owl-next:hover, #slider .owl-prev:hover {
-        background-color: #af9407 !important;
-        border: 2px solid #af9407;
-        color: #000;
+        background-color: #fff !important;
+        border: 2px solid #fff;
+        color: #15549a;
     }
 
 #slider .owl-pagination {
@@ -1741,7 +1703,7 @@ display: block; background: #dddddd; content: '';}*/
     border-radius: 2px;
     width: 98%;
     height: 1px;
-    background-color: gold;
+    background-color: #fff;
     margin: 0px;
 }
 
@@ -1758,22 +1720,22 @@ index-1
     color: #778191;
 }
 .rate-table {
-    background-color: #000;
-    border-top: 1px solid #b1830b;
-    border-bottom: 1px solid #b1830b;
+    background-color: #fff;
+    border-top: 1px solid #dee7f2;
+    border-bottom: 1px solid #dee7f2;
     margin-top: -22px;
 }
 
 .loan-rate {
     font-size: 32px;
-    color: gold;
+    color: #414855;
     margin-bottom: 0px;
     font-weight: 600;
     line-height: 1;
 }
 
 .rate-counter-block {
-    border-right: 1px solid #b1830b;
+    border-right: 1px solid #dee7f2;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -1794,7 +1756,7 @@ index-1
 .rate-title {
     text-transform: uppercase;
     font-size: 14px;
-    color: #B1830B;
+    color: #778191;
 }
 
 .cta {
@@ -3097,27 +3059,32 @@ Service Page & Block Css
 
     #service .owl-next, #service .owl-prev {
         background-color: transparent !important;
-        border: 2px solid gold;
-        color: gold;
+        border: 2px solid #a3b1c1;
+        color: #a3b1c1;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         transition: all 0.3s;
     }
 
         #service .owl-next:hover, #service .owl-prev:hover {
-            
+            background-color: #ee304f !important;
+            border: 2px solid #ee304f;
             color: #fff;
         }
 
 .customer p.button a:hover {
-    
+    background: #00577f;
     color: #fff;
 }
 .service-block {
     transition: box-shadow .5s;
 }
 
- 
+    .service-block:hover {
+        -webkit-box-shadow: 0px 4px 26px 3px rgba(213, 221, 234, 1);
+        -moz-box-shadow: 0px 4px 26px 3px rgba(213, 221, 234, 1);
+        box-shadow: 0px 4px 26px 3px rgba(213, 221, 234, 1);
+    }
 
         .service-block:hover i {
             color: #f51f8a;
@@ -3211,7 +3178,7 @@ testimonial
 
 .testimonial-text {
     font-family: 'Merriweather', serif;
-    color: #fff;
+    color: #414855;
     font-style: italic;
     line-height: 32px;
 }
@@ -3222,7 +3189,7 @@ testimonial
 }
 
 .testimonial-name {
-    color: #b37e08;
+    color: #fff;
     line-height: 1;
     margin-bottom: 5px;
 }
@@ -3280,12 +3247,12 @@ footer
 }
 
 .newsletter-title {
-    color: gold;
+    color: #778191;
     margin-top: 0;
 }
 
 .footer {
-    background-color: #2d2c2c;
+    background-color: #00577f;
     color: #fff;
 }
 
@@ -3301,8 +3268,8 @@ footer
 .customer p.button a {
     display: inline-block;
     padding: 10px 15%;
-    border: 1px solid #b1830b;
-    color: #b1830b;
+    border: 1px solid #00577f;
+    color: #00577f;
     margin-top: 10px;
     background-color: transparent;
     -webkit-transition: background-color 0.5s ease-in-out;
@@ -3326,11 +3293,11 @@ footer
         }
 
             .widget-footer ul li a {
-                color: #ab9c4d;
+                color: #fff;
             }
 
                 .widget-footer ul li a:hover {
-                    color: #fff;
+                    color: #ed193d;
                 }
 
 .tiny-footer {
@@ -3352,7 +3319,7 @@ footer
         position: absolute;
         left: 0;
         font-size: 15px;
-        color: gold;
+        color: #fff;
         content: "\f105";
     }
 
@@ -3368,7 +3335,7 @@ footer
         }
 
             .widget-social ul li a {
-                color: #ab9c4d;
+                color: #fff;
                 text-transform: uppercase;
                 font-weight: 500;
             }
@@ -3378,13 +3345,15 @@ footer
                 }
 
                 .widget-social ul li a:hover {
-                    color: #fff;
+                    color: #ed193d;
                     text-decoration: underline;
                 }
 
-.address-text {color: #ab9c4d;}
+.address-text {
+}
 
-.call-text {color: #ab9c4d;}
+.call-text {
+}
 
     .call-text span {
         padding-right: 10px;
@@ -3406,7 +3375,7 @@ Page header
 .page-title {
     margin-bottom: 0px;
     font-size: 36px;
-    color: #f1f1f1;
+    color: #00577f;
 }
 
 .rate-block {
@@ -3600,7 +3569,7 @@ Blog
     }
 
 .meta-date {
-    color: #fff;
+    color: #ed1a3d;
     font-weight: 600;
 }
 
@@ -3996,7 +3965,7 @@ Extra Plugin CSS - Back to top
     white-space: nowrap;
     visibility: hidden;
     border-radius: 5px;
-    background: rgb(195 144 7) url(../images/cd-top-arrow.svg) no-repeat center 50%;
+    background: rgb(237 26 61) url(../images/cd-top-arrow.svg) no-repeat center 50%;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
     -moz-transition: opacity .3s 0s, visibility 0s .3s;
@@ -4004,7 +3973,7 @@ Extra Plugin CSS - Back to top
 }
 
 .bg-blue {
-    background-color: gold;
+    background-color: #00577f;
 }
 
 .height-300 {
@@ -4299,7 +4268,7 @@ Team
 
 .designation {
     font-size: 12px;
-    color: #b08206;
+    color: #f51f8a;
     text-transform: uppercase;
     font-weight: 600;
 }
