@@ -176,6 +176,7 @@
     <Content Include="Assets\images\blog-post-4.jpg" />
     <Content Include="Assets\images\blog-post-5.jpg" />
     <Content Include="Assets\images\blog-post-6.jpg" />
+    <Content Include="Assets\images\Budgeting 2.jpg" />
     <Content Include="Assets\images\business-loan-about.jpg" />
     <Content Include="Assets\images\business-slider-1.jpg" />
     <Content Include="Assets\images\business-slider-2.jpg" />
@@ -211,6 +212,7 @@
     <Content Include="Assets\images\hero-img-1.jpg" />
     <Content Include="Assets\images\hero-img-2.jpg" />
     <Content Include="Assets\images\home-loan-lp.jpg" />
+    <Content Include="Assets\images\How to refinance to renovate- 17.8.21.jpg" />
     <Content Include="Assets\images\index-three-slider-1.jpg" />
     <Content Include="Assets\images\index-three-slider-2.jpg" />
     <Content Include="Assets\images\index-three-slider-3.jpg" />
@@ -418,6 +420,8 @@
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\Resources\Subscribe.cshtml" />
     <Content Include="Views\OurService\What_Comes_First.cshtml" />
+    <Content Include="Views\Resources\_Top_Ways_To_Cut_Expenses.cshtml" />
+    <Content Include="Views\Resources\_How_To_Refinance.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

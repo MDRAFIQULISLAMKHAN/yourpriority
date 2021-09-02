@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Mvc.Html;
 
 namespace yourpriority.Controllers
 {
@@ -39,5 +40,17 @@ namespace yourpriority.Controllers
         {
             return View();
         }
+
+        public ActionResult _How_To_Refinance()
+        {
+            return View();
+        }
+
+        public ActionResult _Top_Ways_To_Cut_Expenses()
+        {
+            return View();
+        }
+        
+        
     }
 }
