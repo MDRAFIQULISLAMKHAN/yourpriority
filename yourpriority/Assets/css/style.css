@@ -125,7 +125,7 @@ a {
 
     a:focus, a:hover {
         text-decoration: none;
-        color: #ece1a4;
+        color: #b37e08;
     }
 /*ol li p {
     color: #414855;
@@ -534,7 +534,7 @@ Padding space
 }
 .info-text {
     margin-bottom: 10px;
-    color: #ab9c4d;
+    color: #fff;
 }
 /*---------------
 Section Space
@@ -1045,6 +1045,7 @@ icon
 }
 .icon-1x {
     font-size: 24px;
+    color: #b4860a;
 }
 
 /* default icon size of font*/
@@ -1771,7 +1772,19 @@ index-1
     font-weight: 600;
     line-height: 1;
 }
-
+.btn-banner {
+    background-color: #ffffff;
+    color: #000;
+    border: 2px solid #000;
+    border-color: #000;
+}
+.btn-black {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #b1830b;
+    border-color: #af9407;
+    line-height:9px !important;
+}
 .rate-counter-block {
     border-right: 1px solid #b1830b;
     padding-top: 20px;
@@ -3280,7 +3293,7 @@ footer
 }
 
 .newsletter-title {
-    color: gold;
+    color: #fff;
     margin-top: 0;
 }
 
@@ -3302,9 +3315,9 @@ footer
     display: inline-block;
     padding: 10px 15%;
     border: 1px solid #b1830b;
-    color: #b1830b;
+    color: #fff;
     margin-top: 10px;
-    background-color: transparent;
+    background-color: #000;
     -webkit-transition: background-color 0.5s ease-in-out;
     -moz-transition: background-color 0.5s ease-in-out;
     transition: background-color 0.5s ease-in-out;
@@ -3312,8 +3325,11 @@ footer
 
 .footer-top {
     border-top: 1px solid #000;
+    background: #daa520;
 }
-
+.text-black{
+    color:#000;
+}
 .widget-footer {
 }
 
@@ -3326,7 +3342,7 @@ footer
         }
 
             .widget-footer ul li a {
-                color: #ab9c4d;
+                color: #fff;
             }
 
                 .widget-footer ul li a:hover {
@@ -3352,7 +3368,7 @@ footer
         position: absolute;
         left: 0;
         font-size: 15px;
-        color: gold;
+        color: #b4860a;
         content: "\f105";
     }
 
@@ -3368,13 +3384,14 @@ footer
         }
 
             .widget-social ul li a {
-                color: #ab9c4d;
+                color: #fff;
                 text-transform: uppercase;
                 font-weight: 500;
             }
 
                 .widget-social ul li a i {
                     width: 30px;
+                    color: #b4860a;
                 }
 
                 .widget-social ul li a:hover {
@@ -3382,9 +3399,9 @@ footer
                     text-decoration: underline;
                 }
 
-.address-text {color: #ab9c4d;}
+.address-text {color: #fff;}
 
-.call-text {color: #ab9c4d;}
+.call-text {color: #fff;}
 
     .call-text span {
         padding-right: 10px;
