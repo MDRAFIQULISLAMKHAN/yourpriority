@@ -180,6 +180,7 @@
     <Content Include="Assets\images\business-slider-1.jpg" />
     <Content Include="Assets\images\business-slider-2.jpg" />
     <Content Include="Assets\images\business-slider-3.jpg" />
+    <Content Include="Assets\images\Buy with confidence.png" />
     <Content Include="Assets\images\car.svg" />
     <Content Include="Assets\images\card-1.png" />
     <Content Include="Assets\images\card-2.png" />
@@ -305,6 +306,7 @@
     <Content Include="Assets\images\user-pic-2.jpg" />
     <Content Include="Assets\images\user-pic-3.jpg" />
     <Content Include="Assets\images\user-pic-4.jpg" />
+    <Content Include="Assets\images\Winners Photo 2018 resized.jpg" />
     <Content Include="Assets\images\zoom-1.jpg" />
     <Content Include="Assets\images\zoom-2.jpg" />
     <Content Include="Assets\images\zoom-3.jpg" />
@@ -362,6 +364,9 @@
     <Content Include="Assets\fonts\fontellof887.eot" />
     <Content Include="Assets\fonts\fontellof887.ttf" />
     <Content Include="Assets\fonts\fontellof887.woff" />
+    <Content Include="Assets\ApplicationProcess - Guide for customers.pdf" />
+    <Content Include="Assets\Appointment documents checklist Tamworth.pdf" />
+    <Content Include="Assets\Client Information Form %28editable%29.pdf" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -412,6 +417,7 @@
     <Content Include="Views\Resources\Privacy_Policy.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\Resources\Subscribe.cshtml" />
+    <Content Include="Views\OurService\What_Comes_First.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
