@@ -1327,16 +1327,18 @@ display: block; background: #dddddd; content: '';}*/
         margin-left: 0;
         margin-right: 100%;
     }
-
+#section-about p {
+    color: #414855;
+}
     #navigation ul ul li a {
-        border-bottom: 1px solid rgba(222, 231, 242, 1);
+        border-bottom: 1px solid #383838;
         padding: 15px 15px 16px 15px;
         width: 220px;
         font-size: 13px;
         text-decoration: none;
-        color: #66707f;
+        color: #fff;
         font-weight: 500;
-        background: #fff;
+        background: #383838;
     }
 
     #navigation ul ul li:last-child > a, .navigation ul ul li.last-item > a {
