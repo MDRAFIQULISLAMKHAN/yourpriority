@@ -104,16 +104,16 @@ jQuery.fn.hip = function (param) {
             '  display: block;\n' +
             '}\n' +
             '.pagination a {\n' +
-            'color: black;\n' +
+            'color: #b4860a;\n' +
             '  padding: 6px 14px;\n' +
             '  text-decoration: none;\n' +
-            '  border: 2px solid #c3c7d1;\n' +
+            '  border: 2px solid #b4860a;\n' +
             '  border-radius: 3px;\n' +
             '  margin-right: 4px;\n' +
             '}\n' +
             '.pagination a.active {\n' +
             '  font-weight: bold;\n' +
-            '  color: #ed193d;\n' +
+            '  color: #fff;\n' +
             '}' +
             '.hip-item{padding: ' + itemGaps + ';}' +
             '.hip-item-hidden, .hip-item-out{display: none !important;}' +
