@@ -160,6 +160,7 @@
     <Content Include="Assets\fonts\fontawesome-webfont5b62.svg" />
     <Content Include="Assets\fonts\fontellof887.html" />
     <Content Include="Assets\fonts\fontellof887.svg" />
+    <Content Include="Assets\images\2020 Christmas closure post.png" />
     <Content Include="Assets\images\24-hours-icon.png" />
     <Content Include="Assets\images\app-store-img.png" />
     <Content Include="Assets\images\Application Process graphic.png" />
@@ -216,6 +217,7 @@
     <Content Include="Assets\images\index-three-slider-1.jpg" />
     <Content Include="Assets\images\index-three-slider-2.jpg" />
     <Content Include="Assets\images\index-three-slider-3.jpg" />
+    <Content Include="Assets\images\Investment.jpg" />
     <Content Include="Assets\images\lead-hero-img.jpg" />
     <Content Include="Assets\images\lender-logo-1.png" />
     <Content Include="Assets\images\lender-logo-2.png" />
@@ -263,6 +265,7 @@
     <Content Include="Assets\images\mortgage_brokers-newcastle-2019-clr.svg" />
     <Content Include="Assets\images\mortgage_brokers-tamworth-2019-clr.svg" />
     <Content Include="Assets\images\page-header.jpg" />
+    <Content Include="Assets\images\pexels-sora-shimazaki-5668859.jpg" />
     <Content Include="Assets\images\piggy-bank.svg" />
     <Content Include="Assets\images\play-icon.png" />
     <Content Include="Assets\images\PM3_2017.jpg" />
@@ -273,11 +276,13 @@
     <Content Include="Assets\images\process-img-1.jpg" />
     <Content Include="Assets\images\process-img-2.jpg" />
     <Content Include="Assets\images\process-img-3.jpg" />
+    <Content Include="Assets\images\Property investing checklist.jpg" />
     <Content Include="Assets\images\recent-img-1.jpg" />
     <Content Include="Assets\images\recent-img-2.jpg" />
     <Content Include="Assets\images\recent-img-3.jpg" />
     <Content Include="Assets\images\related-img-1.jpg" />
     <Content Include="Assets\images\related-img-2.jpg" />
+    <Content Include="Assets\images\roselyn-tirado-GDWmu0bFfS4-unsplash.jpg" />
     <Content Include="Assets\images\saving-img.jpg" />
     <Content Include="Assets\images\shield-icon.png" />
     <Content Include="Assets\images\slider-1.jpg" />
@@ -308,6 +313,7 @@
     <Content Include="Assets\images\user-pic-2.jpg" />
     <Content Include="Assets\images\user-pic-3.jpg" />
     <Content Include="Assets\images\user-pic-4.jpg" />
+    <Content Include="Assets\images\What are the extra costs to buying a home.jpg" />
     <Content Include="Assets\images\Winners Photo 2018 resized.jpg" />
     <Content Include="Assets\images\zoom-1.jpg" />
     <Content Include="Assets\images\zoom-2.jpg" />
@@ -369,6 +375,8 @@
     <Content Include="Assets\ApplicationProcess - Guide for customers.pdf" />
     <Content Include="Assets\Appointment documents checklist Tamworth.pdf" />
     <Content Include="Assets\Client Information Form %28editable%29.pdf" />
+    <Content Include="Assets\images\Time money house.webp" />
+    <Content Include="Assets\images\news\Time money house.webp" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -422,6 +430,13 @@
     <Content Include="Views\OurService\What_Comes_First.cshtml" />
     <Content Include="Views\Resources\_Top_Ways_To_Cut_Expenses.cshtml" />
     <Content Include="Views\Resources\_How_To_Refinance.cshtml" />
+    <Content Include="Views\Resources\_Rentvesting.cshtml" />
+    <Content Include="Views\Resources\_Your_First_Meeting.cshtml" />
+    <Content Include="Views\Resources\_Five_Ways_To_Fund.cshtml" />
+    <Content Include="Views\Resources\_What_Is_Lmi.cshtml" />
+    <Content Include="Views\Resources\_What_Are_The_Extra_Cost.cshtml" />
+    <Content Include="Views\Resources\_2020_Christmas_Office_Closure_Dates.cshtml" />
+    <Content Include="Views\Resources\_Your_Property_Invest_Checking.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
