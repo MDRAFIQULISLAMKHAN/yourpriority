@@ -96,5 +96,10 @@ namespace yourpriority.Controllers
         {
             return View();
         }
+
+        public ActionResult _Another_Rba_Rate()
+        {
+            return View();
+        }
     }
 }

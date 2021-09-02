@@ -162,6 +162,7 @@
     <Content Include="Assets\fonts\fontellof887.svg" />
     <Content Include="Assets\images\2020 Christmas closure post.png" />
     <Content Include="Assets\images\24-hours-icon.png" />
+    <Content Include="Assets\images\anotherrba.png" />
     <Content Include="Assets\images\app-store-img.png" />
     <Content Include="Assets\images\Application Process graphic.png" />
     <Content Include="Assets\images\author.jpg" />
@@ -444,6 +445,7 @@
     <Content Include="Views\Resources\_Your_Property_Invest_Checking.cshtml" />
     <Content Include="Views\Resources\_Three_Key_Triggers.cshtml" />
     <Content Include="Views\Resources\_How_Rba_Rate.cshtml" />
+    <Content Include="Views\Resources\_Another_Rba_Rate.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
