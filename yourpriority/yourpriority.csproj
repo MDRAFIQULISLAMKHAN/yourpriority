@@ -458,6 +458,18 @@
     <Content Include="Views\Resources\_Three_Key_Triggers.cshtml" />
     <Content Include="Views\Resources\_How_Rba_Rate.cshtml" />
     <Content Include="Views\Resources\_Another_Rba_Rate.cshtml" />
+    <Content Include="Views\Resources\_RBA_Rate_Cut.cshtml" />
+    <Content Include="Views\Resources\_APRA_Process.cshtml" />
+    <Content Include="Views\Resources\_What_To_Consider.cshtml" />
+    <Content Include="Views\Resources\_Stamp_Duty_Explained.cshtml" />
+    <Content Include="Views\Resources\_Why_Should_I_Make.cshtml" />
+    <Content Include="Views\Resources\_Five_Questions_Potentials.cshtml" />
+    <Content Include="Views\Resources\_Comparing_Apples.cshtml" />
+    <Content Include="Views\Resources\_Inspection_Checklist.cshtml" />
+    <Content Include="Views\Resources\_When_Is_The_Best.cshtml" />
+    <Content Include="Views\Resources\_Thinking_Of_Buying.cshtml" />
+    <Content Include="Views\Resources\_Dont_Kill_Competition.cshtml" />
+    <Content Include="Views\Resources\_Why_Some_Interest.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
