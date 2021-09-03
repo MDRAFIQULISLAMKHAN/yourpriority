@@ -11,52 +11,52 @@ namespace yourpriority.Controllers
         // GET: OurService
         public ActionResult Our_Services()
         {
-            return View();
+            return View("our-services");
         }
         public ActionResult Home_Loans()
         {
-            return View();
+            return View("home-loans");
         }
         public ActionResult Commercial_and_Leasing()
         {
-            return View();
+            return View("commercial-and-leasing");
         }
         public ActionResult Business_Loans()
         {
-            return View();
+            return View("business-loans");
         }
         public ActionResult Pre_approvals()
         {
-            return View();
+            return View("pre-approvals");
         }
         public ActionResult Refinancing()
         {
-            return View();
+            return View("refinancing");
         }
         public ActionResult First_Home_Buyers()
         {
-            return View();
+            return View("first-home-buyers");
         }
         public ActionResult Investment_Loans()
         {
-            return View();
+            return View("investment-loans");
         }
         public ActionResult Construction_Loans()
         {
-            return View();
+            return View("construction-loans");
         }
         public ActionResult Deposit_Bonds()
         {
-            return View();
+            return View("deposit-bonds");
         }
         public ActionResult Car_and_Equipment_Finance()
         {
-            return View();
+            return View("car-and-equipment-finance");
         }
 
         public ActionResult What_Comes_First()
         {
-            return View();
+            return View("what-comes-first");
         }
     }
 }

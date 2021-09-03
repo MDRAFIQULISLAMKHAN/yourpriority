@@ -712,12 +712,12 @@ Buttons
     font-weight: 600;
 }
 
-    .btn-default {
-        background-color: #af9407;
-        color: #fff;
-        border: 2px solid #b1830b;
-        border-color: #af9407;
-    }
+.btn-default {
+    background-color: #daa520;
+    color: #fff;
+    border: 2px solid #daa520;
+    border-color: #daa520;
+}
 .btn-send {
     background-color: #af9407;
     color: #fff;
@@ -3508,6 +3508,7 @@ Page header
     }
 
         .page-breadcrumb .breadcrumb > li {
+            color: #fff;
         }
 
         .page-breadcrumb .breadcrumb > .active {
@@ -3516,19 +3517,19 @@ Page header
         }
 
         .page-breadcrumb .breadcrumb > li a {
-            color: #15549a;
+            
             font-weight: 700;
         }
 
             .page-breadcrumb .breadcrumb > li a:hover {
-                color: #ed193d;
+                color: #fff;
             }
 
-        .page-breadcrumb .breadcrumb > li + li:before {
-            padding: 0 5px;
-            color: #15549a;
-            content: "/\00a0";
-        }
+            .page-breadcrumb .breadcrumb > li + li:before {
+                padding: 0 5px;
+                color: #96810c;
+                content: "/\00a0";
+            }
 
 /*--------------------------------
 Blog  
