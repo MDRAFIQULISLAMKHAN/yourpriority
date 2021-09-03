@@ -24,8 +24,10 @@ namespace yourpriority.Controllers
         [HttpPost]
         public ActionResult MaiResult(Contact pv)
         {
+            try
+            {
 
-            string body = string.Empty;
+                string body = string.Empty;
             using (StreamReader reader = new StreamReader(Server.MapPath("~/Views/Email_Templates/adminestrator-email.cshtml")))
             {
                 body = reader.ReadToEnd();
@@ -79,35 +81,12 @@ namespace yourpriority.Controllers
                 //Send Method will send your MailMessage create above.  
                 _smtp.Send(_mailmsg);
             }
-
-            return View("~/Views/Contact/Index.cshtml", pv);
-
-
-            /*
-            try
-            {
-                string body = string.Empty;
-                body += "Hi Team,";
-                body += "<br/> This is from ByteHeart Contact us enquiry:";
-                body += "<br/>Name: " + pv.Name;
-                body += "<br/>Email: " + pv.Email;
-                body += "<br/>Phone: " + pv.Phone;
-                body += "<br/>Office: " + pv.Office;
-                body += "<br/>Refference: " + pv.Refference;
-                body += "<br/>Message: " + pv.Message;
-                body += "<br/> Date: " + DateTime.Now.ToString("dd MMM yyyy");
-
-                bool hasWords = HasBadWords(pv.Message);
-
-                if (hasWords == false)
-                {
-                    var client = new SmtpClient("smtp.gmail.com", 587)
-                    {
-                        Credentials = new NetworkCredential("test.sgff@gmail.com", "testingg"),
-                        EnableSsl = true
-                    };
-                    client.Send("test.sgff@gmail.com", "sagorkhan.fts@gmail.com", "test", body);
-                }
+            StringBuilder sb = new StringBuilder();
+            sb.AppendFormat("<div class=\"alert alert-success\" id=\"contactSuccess\">");
+            sb.AppendFormat("<strong>Success!</strong> Your message has been sent to us.");
+            sb.AppendFormat("</div>");
+            pv.EmailStatus = sb.ToString();
+            
             }
             catch (Exception ex)
             {
@@ -117,9 +96,8 @@ namespace yourpriority.Controllers
                 sb.AppendFormat("<span class=\"font-size-xs mt-sm display-block\" id=\"mailErrorMessage\"></span>");
                 sb.AppendFormat("</div>");
                 pv.EmailStatus = sb.ToString();
-            }*/
-
-            /*return View("~/Views/Contact/Index.cshtml",pv);*/
+            }
+            return View("~/Views/Contact/Index.cshtml", pv);
         }
         public bool HasBadWords(string inputWords)
         {
