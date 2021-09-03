@@ -127,6 +127,10 @@ a {
         text-decoration: none;
         color: #b37e08;
     }
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2.9rem + 6px);
+}
 /*ol li p {
     color: #414855;
 }*/
