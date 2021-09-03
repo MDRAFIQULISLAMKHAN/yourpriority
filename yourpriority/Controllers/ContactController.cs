@@ -25,23 +25,12 @@ namespace yourpriority.Controllers
         public ActionResult MaiResult(Contact pv)
         {
 
-            /*string body = string.Empty;
+            string body = string.Empty;
             using (StreamReader reader = new StreamReader(Server.MapPath("~/Views/Email_Templates/User_success_email.cshtml")))
             {
                 body = reader.ReadToEnd();
             }
-            bool hasWords = HasBadWords(pv.Message);
 
-            if (hasWords == false)
-            {
-                var client = new SmtpClient("smtp.gmail.com", 587)
-                {
-                    Credentials = new NetworkCredential("test.sgff@gmail.com", "testingg"),
-                    EnableSsl = true
-                };
-                client.Send("test.sgff@gmail.com", "sagorkhan.fts@gmail.com", "test", body);
-            }
-            
             body = body.Replace("{Name}", pv.Name);
             body = body.Replace("{Email}", pv.Email);
             body = body.Replace("{Phone}", pv.Phone);
@@ -51,26 +40,49 @@ namespace yourpriority.Controllers
 
             using (MailMessage mailMessage = new MailMessage())
             {
-                mailMessage.From = new MailAddress(pv.Name);
-                mailMessage.Subject = "New User";
-                mailMessage.Body = body;
-                mailMessage.IsBodyHtml = true;
-                mailMessage.To.Add(new MailAddress("sagorkhan.fts@gmail.com"));
-                SmtpClient smtp = new SmtpClient();
-                smtp.Host = "test.sgff@gmail.com";
-                smtp.EnableSsl = true;
-                System.Net.NetworkCredential NetworkCred = new System.Net.NetworkCredential();
-                NetworkCred.UserName = "test.sgff@gmail.com";
-                NetworkCred.Password = "testingg";
-                smtp.UseDefaultCredentials = true;
-                smtp.Credentials = NetworkCred;
-                smtp.Port = 587;
-                smtp.Send(mailMessage);
+
+                //Base class for sending email  
+                MailMessage _mailmsg = new MailMessage();
+
+                //Make TRUE because our body text is html  
+                _mailmsg.IsBodyHtml = true;
+
+                //Set From Email ID  
+                _mailmsg.From = new MailAddress("test.sgff@gmail.com");
+
+                //Set To Email ID  
+                _mailmsg.To.Add("sagorkhan.fts@gmail.com");
+
+                //Set Subject  
+                _mailmsg.Subject = "Hello";
+
+                //Set Body Text of Email   
+                _mailmsg.Body = body;
+
+                //Now set your SMTP   
+                SmtpClient _smtp = new SmtpClient();
+
+                //Set HOST server SMTP detail  
+                _smtp.Host = "smtp.gmail.com";
+
+                //Set PORT number of SMTP  
+                _smtp.Port = 587;
+
+                //Set SSL --> True / False  
+                _smtp.EnableSsl = true;
+
+                //Set Sender UserEmailID, Password  
+                NetworkCredential _network = new NetworkCredential("test.sgff@gmail.com", "testingg");
+                _smtp.Credentials = _network;
+
+                //Send Method will send your MailMessage create above.  
+                _smtp.Send(_mailmsg);
             }
 
-            return View("~/Views/Contact/Index.cshtml", pv);*/
+            return View("~/Views/Contact/Index.cshtml", pv);
 
 
+            /*
             try
             {
                 string body = string.Empty;
@@ -104,9 +116,9 @@ namespace yourpriority.Controllers
                 sb.AppendFormat("<span class=\"font-size-xs mt-sm display-block\" id=\"mailErrorMessage\"></span>");
                 sb.AppendFormat("</div>");
                 pv.EmailStatus = sb.ToString();
-            }
+            }*/
 
-            return View("~/Views/Contact/Index.cshtml",pv);
+            /*return View("~/Views/Contact/Index.cshtml",pv);*/
         }
         public bool HasBadWords(string inputWords)
         {
