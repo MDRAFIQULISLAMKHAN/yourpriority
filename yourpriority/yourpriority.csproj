@@ -471,18 +471,6 @@
     <Content Include="Views\Resources\don27t-kill-competition.cshtml" />
     <Content Include="Views\Resources\why-some-interest-only-borrowers-are-keen-to-switch.cshtml" />
     <Content Include="Views\OurService\what-comes-first.cshtml" />
-    <Content Include="Views\Resources\_Top_Ways_To_Cut_Expenses.cshtml" />
-    <Content Include="Views\Resources\_How_To_Refinance.cshtml" />
-    <Content Include="Views\Resources\_Rentvesting.cshtml" />
-    <Content Include="Views\Resources\_Your_First_Meeting.cshtml" />
-    <Content Include="Views\Resources\_Five_Ways_To_Fund.cshtml" />
-    <Content Include="Views\Resources\_What_Is_Lmi.cshtml" />
-    <Content Include="Views\Resources\_What_Are_The_Extra_Cost.cshtml" />
-    <Content Include="Views\Resources\_2020_Christmas_Office_Closure_Dates.cshtml" />
-    <Content Include="Views\Resources\_Your_Property_Invest_Checking.cshtml" />
-    <Content Include="Views\Resources\_Three_Key_Triggers.cshtml" />
-    <Content Include="Views\Resources\_How_Rba_Rate.cshtml" />
-    <Content Include="Views\Resources\_Another_Rba_Rate.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
