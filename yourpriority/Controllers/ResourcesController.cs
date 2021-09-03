@@ -101,5 +101,65 @@ namespace yourpriority.Controllers
         {
             return View();
         }
+
+        public ActionResult _RBA_Rate_Cut()
+        {
+            return View();
+        }
+
+        public ActionResult _APRA_Process()
+        {
+            return View();
+        }
+
+        public ActionResult _What_To_Consider()
+        {
+            return View();
+        }
+
+        public ActionResult _Stamp_Duty_Explained()
+        {
+            return View();
+        }
+
+        public ActionResult _Why_Should_I_Make()
+        {
+            return View();
+        }
+
+        public ActionResult _Five_Questions_Potentials()
+        {
+            return View();
+        }
+
+        public ActionResult _Comparing_Apples()
+        {
+            return View();
+        }
+
+        public ActionResult _Inspection_Checklist()
+        {
+            return View();
+        }
+
+        public ActionResult _When_Is_The_Best()
+        {
+            return  View();
+        }
+
+        public ActionResult _Thinking_Of_Buying()
+        {
+            return View();
+        }
+
+        public ActionResult _Dont_Kill_Competition()
+        {
+            return View();
+        }
+
+        public ActionResult _Why_Some_Interest()
+        {
+            return View();
+        }
     }
 }
