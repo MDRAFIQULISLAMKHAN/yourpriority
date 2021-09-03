@@ -131,75 +131,79 @@
 
                                 </div>
                             </div>
+                            @if (Model != null && !string.IsNullOrEmpty(Model.EmailStatus))
+                            {
+                                @Html.Raw(Model.EmailStatus)
+                            }
 
                             @using (Html.BeginForm("MaiResult", "Contact", FormMethod.Post, new { @class = "contactForm" }))
-                                                                        {
-                                                                            <div class="row">
-                                                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                                                                                    <div class="form-group">
-                                                                                        @Html.TextBoxFor(model => Model.Name, new { @class = "form-control input-md", @id = "name", placeholder = "Name", data_rule = "minlen:4", data_msg = "Please enter at least 4 chars" })
-                                                                                    </div>
-                                                                                </div>
+                            {
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            @Html.TextBoxFor(model => Model.Name, new { @class = "form-control input-md", @id = "name", placeholder = "Name", data_rule = "minlen:4", data_msg = "Please enter at least 4 chars" })
+                                        </div>
+                                    </div>
 
-                                                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                                                                                    <div class="span4 form-group">
-                                                                                        @Html.TextBoxFor(model => model.Email, new { @class = "form-control input-md", @id = "email", placeholder = "Email", data_rule = "email", data_msg = "Please enter a valid email" })
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                                                                                    <div class="span4 form-group">
-                                                                                        @Html.TextBoxFor(model => model.Phone, new { @class = "form-control input-md", @id = "email", placeholder = "Phone", data_rule = "email", data_msg = "Please enter a valid email" })
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                                                                                    <div class="span4 form-group">
-                                                                                        @*@Html.TextBoxFor(model => model.Regarding, new { @class = "form-control form-control-lg", @id = "email", placeholder = "Regarding", data_rule = "email", data_msg = "Please enter a valid email" })*@
-                                                                                        
-                                                                                        @Html.DropDownListFor(model => model.Regarding, new List<SelectListItem>
-                                                                                        {
-                                                                                            new SelectListItem{Text="General Enquiry", Value="General Enquiry"},
-                                                                                            new SelectListItem{Text="Home Loan", Value="Home Loan"},
-                                                                                            new SelectListItem{Text="Commercial & Leasing", Value="Commercial & Leasing"},
-                                                                                            new SelectListItem{Text="Business Loans", Value="Business Loans"},
-                                                                                            new SelectListItem{Text="Pre-approvals", Value="Pre-approvals"},
-                                                                                            new SelectListItem{Text="Refinancing", Value="Refinancing"},
-                                                                                            new SelectListItem{Text="First Home Buyers", Value="First Home Buyers"},
-                                                                                            new SelectListItem{Text="Investment Loans", Value="Investment Loans"},
-                                                                                            new SelectListItem{Text="Construction Loans", Value="Construction Loans"},
-                                                                                            new SelectListItem{Text="Deposit Bonds", Value="Deposit Bonds"},
-                                                                                            new SelectListItem{Text="Car and Equipment", Value="Car and Equipment"}}, "Regarding", new { @class = "form-control input-md", data_msg = "Please select regarding" })
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                                                                                    <div class="span4 form-group">
-                                                                                        @Html.DropDownListFor(model => model.Office, new List<SelectListItem>
-                                                                                       {
-                                                                                           new SelectListItem{Text="Tamworth", Value="Tamworth"},
-                                                                                           new SelectListItem{Text="Hunter Coast", Value="Hunter Coast"}}, "Your Closest Office", new { @class = "form-control input-md", data_msg = "Please select a office" })
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                                                                                    <div class="span4 form-group">
-                                                                                        @Html.DropDownListFor(model => model.Refference, new List<SelectListItem>
-                                                                                        {
-                                                                                            new SelectListItem{Text="Newspaper", Value="Newspaper"},
-                                                                                            new SelectListItem{Text="Radio", Value="Radio"},
-                                                                                            new SelectListItem{Text="Web", Value="Web"},
-                                                                                            new SelectListItem{Text="Word of Mouth", Value="Word of Mouth"},
-                                                                                            new SelectListItem{Text="Other", Value="Other"}}, "How did you hear of us?", new { @class = "form-control input-md", data_msg = "Please select" })
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                                                                    <div class="form-group">
-                                                                                        @Html.TextAreaFor(model => model.Message, new { @class = "form-control form-control-lg", @id = "email", placeholder = "Message", data_rule = "email", data_msg = "Please enter Message" })
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                                                                    <button class="btn btn-send" type="submit">Send</button>
-                                                                                </div>
-                                                                                </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                        <div class="span4 form-group">
+                                            @Html.TextBoxFor(model => model.Email, new { @class = "form-control input-md", @id = "email", placeholder = "Email", data_rule = "email", data_msg = "Please enter a valid email" })
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                        <div class="span4 form-group">
+                                            @Html.TextBoxFor(model => model.Phone, new { @class = "form-control input-md", @id = "email", placeholder = "Phone", data_rule = "email", data_msg = "Please enter a valid email" })
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                        <div class="span4 form-group">
+                                            @*@Html.TextBoxFor(model => model.Regarding, new { @class = "form-control form-control-lg", @id = "email", placeholder = "Regarding", data_rule = "email", data_msg = "Please enter a valid email" })*@
 
-                                                                        }
+                                            @Html.DropDownListFor(model => model.Regarding, new List<SelectListItem>
+                                            {
+                                                new SelectListItem{Text="General Enquiry", Value="General Enquiry"},
+                                                new SelectListItem{Text="Home Loan", Value="Home Loan"},
+                                                new SelectListItem{Text="Commercial & Leasing", Value="Commercial & Leasing"},
+                                                new SelectListItem{Text="Business Loans", Value="Business Loans"},
+                                                new SelectListItem{Text="Pre-approvals", Value="Pre-approvals"},
+                                                new SelectListItem{Text="Refinancing", Value="Refinancing"},
+                                                new SelectListItem{Text="First Home Buyers", Value="First Home Buyers"},
+                                                new SelectListItem{Text="Investment Loans", Value="Investment Loans"},
+                                                new SelectListItem{Text="Construction Loans", Value="Construction Loans"},
+                                                new SelectListItem{Text="Deposit Bonds", Value="Deposit Bonds"},
+                                                new SelectListItem{Text="Car and Equipment", Value="Car and Equipment"}}, "Regarding", new { @class = "form-control input-md", data_msg = "Please select regarding" })
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                        <div class="span4 form-group">
+                                            @Html.DropDownListFor(model => model.Office, new List<SelectListItem>
+                                           {
+                                               new SelectListItem{Text="Tamworth", Value="Tamworth"},
+                                               new SelectListItem{Text="Hunter Coast", Value="Hunter Coast"}}, "Your Closest Office", new { @class = "form-control input-md", data_msg = "Please select a office" })
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                        <div class="span4 form-group">
+                                            @Html.DropDownListFor(model => model.Refference, new List<SelectListItem>
+                                            {
+                                                new SelectListItem{Text="Newspaper", Value="Newspaper"},
+                                                new SelectListItem{Text="Radio", Value="Radio"},
+                                                new SelectListItem{Text="Web", Value="Web"},
+                                                new SelectListItem{Text="Word of Mouth", Value="Word of Mouth"},
+                                                new SelectListItem{Text="Other", Value="Other"}}, "How did you hear of us?", new { @class = "form-control input-md", data_msg = "Please select" })
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            @Html.TextAreaFor(model => model.Message, new { @class = "form-control form-control-lg", @id = "email", placeholder = "Message", data_rule = "email", data_msg = "Please enter Message" })
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <button class="btn btn-send" type="submit">Send</button>
+                                    </div>
+                                </div>
+
+                            }
 
 
 

@@ -15,7 +15,6 @@ namespace yourpriority.Controllers
         {
             return View();
         }
-        [ActionName("new-customer")]
         public ActionResult New_Customer()
         {
             return View("new-customer");
