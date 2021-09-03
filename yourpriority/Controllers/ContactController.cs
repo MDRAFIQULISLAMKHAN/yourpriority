@@ -26,7 +26,7 @@ namespace yourpriority.Controllers
         {
 
             string body = string.Empty;
-            using (StreamReader reader = new StreamReader(Server.MapPath("~/Views/Email_Templates/User_success_email.cshtml")))
+            using (StreamReader reader = new StreamReader(Server.MapPath("~/Views/Email_Templates/adminestrator-email.cshtml")))
             {
                 body = reader.ReadToEnd();
             }
@@ -34,6 +34,7 @@ namespace yourpriority.Controllers
             body = body.Replace("{Name}", pv.Name);
             body = body.Replace("{Email}", pv.Email);
             body = body.Replace("{Phone}", pv.Phone);
+            body = body.Replace("{Regarding}", pv.Regarding);
             body = body.Replace("{Office}", pv.Office);
             body = body.Replace("{Refference}", pv.Refference);
             body = body.Replace("{Message}", pv.Message);

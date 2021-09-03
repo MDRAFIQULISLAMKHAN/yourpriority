@@ -11,22 +11,22 @@ namespace yourpriority.Controllers
         // GET: Why_Use_Priority
         public ActionResult Why_use_Priority()
         {
-            return View();
+            return View("why-use-priority");
         }
 
         public ActionResult Application_Process()
         {
-            return View();
+            return View("application-process");
         }
 
         public ActionResult Testimonial()
         {
-            return View();
+            return View("testimonial");
         }
 
         public ActionResult What()
         {
-            return View();
+            return View("why-use-priority");
         }
     }
 }
