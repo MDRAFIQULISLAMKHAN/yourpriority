@@ -1009,12 +1009,15 @@ Bullet
     .list-pdf-file li a:hover {
         color: #f51f8a;
     }
-.menu-li a {
-    color: #a68164;
-}
-.menu-li-list a {
-    color: #a68164;
-}
+    .menu-li a {
+        color: #a68164;
+    }
+    .menu-li a:hover, .menu-li-list a:hover{
+        color: #fff;
+    }
+    .menu-li-list a {
+        color: #a68164;
+    }
 .btn-box {
     margin-top:25px;
     margin-bottom:25px;
@@ -3961,20 +3964,25 @@ Pagination
     color: #f51f8a;
 }
 
-.st-accordion .panel {
-    margin-bottom: 20px;
-    background-color: #fff;
-    border: 1px solid transparent;
-    border-radius: 0px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
+    .st-accordion .panel {
+        margin-bottom: 20px;
+        background-color: #fff;
+    
+        border-radius: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
 
-.st-accordion .panel-default {
-    border-color: transparent;
-    border-bottom: 1px solid #e0e7ea;
-}
+    .st-accordion .panel-default {
+        border-color: transparent;
+    }
+    .link-highlight {
+        color: #778191;
+    }
 
+    .link-highlight:hover {
+        color: #b37e08;
+    }
 .st-accordion .panel-group .panel {
     margin-bottom: 10px;
     border-radius: 0px;
@@ -3984,8 +3992,8 @@ Pagination
 }
 
 .st-accordion .panel-default > .panel-heading {
-    color: #323734;
-    background-color: #fff;
+    color: #525252;
+    background-color: #565555;
     border-bottom: 1px solid transparent;
     padding: 10px 0px 10px 30px;
 }
