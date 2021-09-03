@@ -712,18 +712,29 @@ Buttons
     font-weight: 600;
 }
 
-.btn-default {
+    .btn-default {
+        background-color: #af9407;
+        color: #fff;
+        border: 2px solid #b1830b;
+        border-color: #af9407;
+    }
+.btn-send {
     background-color: #af9407;
     color: #fff;
     border: 2px solid #b1830b;
     border-color: #af9407;
+    padding: 15px 60px !important;
 }
-
-    .btn-default:hover {
-        color: #b1830b;
-        background-color: #fff;
-        border: 2px solid #b1830b;
-    }
+.btn-send:hover {
+    color: #b1830b;
+    background-color: #fff;
+    border: 2px solid #b1830b;
+}
+.btn-default:hover {
+    color: #b1830b;
+    background-color: #fff;
+    border: 2px solid #b1830b;
+}
 
     .btn-default.focus, .btn-default:focus {
         color: #fff;
@@ -1009,12 +1020,15 @@ Bullet
     .list-pdf-file li a:hover {
         color: #f51f8a;
     }
-.menu-li a {
-    color: #a68164;
-}
-.menu-li-list a {
-    color: #a68164;
-}
+    .menu-li a {
+        color: #a68164;
+    }
+    .menu-li a:hover, .menu-li-list a:hover{
+        color: #fff;
+    }
+    .menu-li-list a {
+        color: #a68164;
+    }
 .btn-box {
     margin-top:25px;
     margin-bottom:25px;
@@ -1475,7 +1489,7 @@ display: block; background: #dddddd; content: '';}*/
         #navigation.small-screen #menu-button {
             display: block;
             padding: 16px 0px;
-            color: #f51f8a;
+            color: #daa520;
             cursor: pointer;
             font-size: 12px;
             text-transform: uppercase;
@@ -1490,21 +1504,23 @@ display: block; background: #dddddd; content: '';}*/
                 display: block;
                 height: 8px;
                 width: 20px;
-                border-top: 2px solid #f51f8a;
-                border-bottom: 2px solid #f51f8a;
+                border-top: 2px solid #daa520;
+                border-bottom: 2px solid #daa520;
                 content: '';
             }
-
-            #navigation.small-screen #menu-button:before {
-                position: absolute;
-                top: 16px;
-                right: 0px;
-                display: block;
-                height: 2px;
-                width: 20px;
-                background: #f51f8a;
-                content: '';
-            }
+    .red-button {
+        background-color: #b08206;
+    }
+#navigation.small-screen #menu-button:before {
+    position: absolute;
+    top: 16px;
+    right: 0px;
+    display: block;
+    height: 2px;
+    width: 20px;
+    background: #daa520;
+    content: '';
+}
 
             #navigation.small-screen #menu-button.menu-opened:after {
                 top: 23px;
@@ -3893,17 +3909,23 @@ Pagination
         background-color: #fff;
         padding: 8px 13px;
     }
-
-        .st-pagination .pagination > li > a:focus, .st-pagination .pagination > li > a:hover, .st-pagination .pagination > li > span:focus, .st-pagination .pagination > li > span:hover {
-            z-index: 2;
-            color: #fff;
-            background-color: #00577f;
-            border-color: #00577f;
-            border-radius: 4px;
-        }
+.d-flex {
+    justify-content: center;
+}
+.img-fluid {
+    height: 221px !important;
+    
+}
+.st-pagination .pagination > li > a:focus, .st-pagination .pagination > li > a:hover, .st-pagination .pagination > li > span:focus, .st-pagination .pagination > li > span:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #00577f;
+    border-color: #00577f;
+    border-radius: 4px;
+}
 .pagination {
     margin-top: -80px;
-    margin-bottom: 20px;
+    margin-bottom: 65px;
 }
     .st-pagination .pagination > li:first-child > a, .st-pagination .pagination > li:first-child > span {
         margin-left: 0;
@@ -3961,20 +3983,25 @@ Pagination
     color: #f51f8a;
 }
 
-.st-accordion .panel {
-    margin-bottom: 20px;
-    background-color: #fff;
-    border: 1px solid transparent;
-    border-radius: 0px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
+    .st-accordion .panel {
+        margin-bottom: 20px;
+        background-color: #fff;
+    
+        border-radius: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
 
-.st-accordion .panel-default {
-    border-color: transparent;
-    border-bottom: 1px solid #e0e7ea;
-}
+    .st-accordion .panel-default {
+        border-color: transparent;
+    }
+    .link-highlight {
+        color: #778191;
+    }
 
+    .link-highlight:hover {
+        color: #b37e08;
+    }
 .st-accordion .panel-group .panel {
     margin-bottom: 10px;
     border-radius: 0px;
@@ -3984,8 +4011,8 @@ Pagination
 }
 
 .st-accordion .panel-default > .panel-heading {
-    color: #323734;
-    background-color: #fff;
+    color: #525252;
+    background-color: #565555;
     border-bottom: 1px solid transparent;
     padding: 10px 0px 10px 30px;
 }
@@ -5038,6 +5065,10 @@ Landing Page Template
     .ml10{
         margin-left: 0px;
     }
+    .height-300{
+        height: auto;
+    }
+
 }
 
     @media screen and (max-width:1366px) {
@@ -5150,6 +5181,7 @@ Landing Page Template
         /*--------------- Page Header ( for mobile view  )---------- */
         .page-header {
             padding: 40px 0px 80px;
+            min-height: auto;
         }
 
         .page-title {
