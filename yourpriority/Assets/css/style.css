@@ -128,7 +128,7 @@ a {
         color: #b37e08;
     }
 
-select.form-control:not([size]):not([multiple]) {
+    select.form-control:not([size]):not([multiple]) {
     height: calc(2.9rem + 6px);
 }
 /*ol li p {
@@ -539,6 +539,9 @@ Padding space
 .info-text {
     margin-bottom: 10px;
     color: #fff;
+}
+.nav-tabs .nav-link {
+    border: none;
 }
 /*---------------
 Section Space
@@ -4455,6 +4458,12 @@ Product Single Sidebar
 
     .product-tabs .nav > li {
         margin-top: -1px;
+        list-style: none;
+        padding: 10px;
+        padding-left: 0px;
+        border-bottom: 1px;
+        border-bottom: 2px solid rgb(230, 230, 230);
+        background: transparent;
     }
 
         .product-tabs .nav > li.active a {
@@ -4464,22 +4473,20 @@ Product Single Sidebar
         }
 
         .product-tabs .nav > li > a {
-            background: #fff;
-            border-bottom: 1px solid #dee7f2;
+            /*border-bottom: 1px solid #dee7f2;
             border-right: 1px solid #dee7f2;
             border-left: 1px solid #dee7f2;
-            border-top: 1px solid #dee7f2;
-            color: #7e93ae;
+            border-top: 1px solid #dee7f2;*/
+            color: #a68164;
         }
+.nav-tabs {
+    border-bottom: none;
+}
 
-            .product-tabs .nav > li > a:hover {
-                background: #eff3f8;
-                border-bottom: 1px solid #dee7f2;
-                border-right: 1px solid transparent;
-                border-left: 1px solid #dee7f2;
-                border-top: 1px solid #dee7f2;
-                color: #f51f8a;
-            }
+.product-tabs .nav > li > a:hover {
+
+    color: #ff;
+}
 
             .product-tabs .nav > li > a i {
                 padding-right: 10px;
@@ -4742,7 +4749,7 @@ Shortcodes
     }
 
     .st-tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-        color: #f51f8a;
+        color: #fff;
         background-color: transparent;
         border-color: #dee7f2 #dee7f2 #dee7f2 #dee7f2;
     }
