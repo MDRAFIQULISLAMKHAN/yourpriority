@@ -134,6 +134,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\as logo-updated copy.png" />
     <Content Include="Assets\css\AjaxLoader.html" />
     <Content Include="Assets\css\bootstrap.min.css" />
     <Content Include="Assets\css\flaticon.css" />
@@ -245,6 +246,7 @@
     <Content Include="Assets\images\loan-icon-5.png" />
     <Content Include="Assets\images\loan-icon-6.png" />
     <Content Include="Assets\images\loan.svg" />
+    <Content Include="Assets\images\logo our priority.png" />
     <Content Include="Assets\images\logo-1.jpg" />
     <Content Include="Assets\images\logo-2.jpg" />
     <Content Include="Assets\images\logo-3.jpg" />
@@ -355,6 +357,7 @@
     <Content Include="Assets\js\jquery.nice-select.min.js" />
     <Content Include="Assets\js\jquery.sticky.js" />
     <Content Include="Assets\js\loan-elgiblity.js" />
+    <Content Include="Assets\js\logo our priority.png" />
     <Content Include="Assets\js\menumaker.js" />
     <Content Include="Assets\js\modernizr.js" />
     <Content Include="Assets\js\owl.carousel.min.js" />
@@ -405,13 +408,6 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Web.config" />
-    <Content Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
-    <Content Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
@@ -470,6 +466,13 @@
     <Content Include="Views\Resources\don27t-kill-competition.cshtml" />
     <Content Include="Views\Resources\why-some-interest-only-borrowers-are-keen-to-switch.cshtml" />
     <Content Include="Views\OurService\what-comes-first.cshtml" />
+    <Content Include="web.config" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
