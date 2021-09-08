@@ -134,6 +134,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\as logo-updated copy footer.png" />
     <Content Include="Assets\as logo-updated copy.png" />
     <Content Include="Assets\css\AjaxLoader.html" />
     <Content Include="Assets\css\bootstrap.min.css" />
